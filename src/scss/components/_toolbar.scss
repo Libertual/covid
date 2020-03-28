@@ -1,0 +1,12 @@
+.toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 7rem;
+  display: flex;
+  align-items: stretch;
+  background-color: $color-primary;
+  padding: 0 2rem;
+  margin: 0;
+  width: 100vw;
+}
