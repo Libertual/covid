@@ -142,7 +142,8 @@
     "use-lifecycle-interface": true,
     "use-pipe-transform-interface": true,
     "object-literal-sort-keys": false,
-    "trailing-comma": [true, {"multiline": "never", "singleline": "never"}]
+    "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
+    "ordered-imports": false
   },
   "rulesDirectory": [
     "codelyzer"
