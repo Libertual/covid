@@ -1,0 +1,8 @@
+{
+  "/resources/*": {
+    "target": "https://covid19.isciii.es",
+    "secure": true,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}
