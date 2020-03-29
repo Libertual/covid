@@ -1,0 +1,22 @@
+.summary {
+  ul {
+    list-style: none;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      padding: .8rem 0;
+      &:not(:last-child) {
+        border-bottom: 1px solid $color-grey-light-2;
+      }
+    }
+  }
+
+  &__key {
+
+  }
+
+  &__value {
+    color: $color-warn;
+  }
+}

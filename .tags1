@@ -1,0 +1,10 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+default-font-size	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$default-font-size: 10px;$/;"	function	line:3
+grid-width	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$grid-width: 114rem;$/;"	function	line:7
+gutter-vertical	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$gutter-vertical: 8rem;$/;"	function	line:8
+gutter-horizontal	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$gutter-horizontal: 6rem;$/;"	function	line:9

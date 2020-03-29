@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { LineChartService } from './line-chart.service';
+import { CovidDataService } from './covid-data.service';
 
-describe('LineChartService', () => {
-  let service: LineChartService;
+describe('CovidDataService', () => {
+  let service: CovidDataService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(LineChartService);
+    service = TestBed.inject(CovidDataService);
   });
 
   it('should be created', () => {

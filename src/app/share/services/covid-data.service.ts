@@ -1,20 +1,43 @@
-import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+
+import { ISummary } from '../interfaces/summary.interface';
 
 @Injectable({
   providedIn: 'root'
 })
-export class LineChartService {
+export class CovidDataService {
+  private dataPath = 'assets/data/';
+  // private dataPath = '/resources/';
 
-  private covidUrl = 'assets/data/serie_historica_acumulados.csv';
-  private ccaaUrl = '/api/resources/ccaa.csv';
-  private dataUrl = '/api/resources/data.csv';
+  private covidCCAAFile = 'serie_historica_acumulados.csv';
+  private totalDataFile = 'data.csv';
+  // private ccaaFile = 'ccaa.csv';
   // private covidUrl = '/resources/serie_historica_acumulados.csv';
 
   constructor(private http: HttpClient) { }
 
+  public getTotalData() {
+    return this.http.get(this.dataPath + this.totalDataFile, {responseType: 'text'});
+  }
+
   public getCovidData() {
-    return this.http.get(this.covidUrl, {responseType: 'text'});
+    return this.http.get(this.dataPath + this.covidCCAAFile, {responseType: 'text'});
+  }
+
+  public parseTotalData(data: any) {
+    const lines = data.split('\n');
+    const totals = lines[1].split(',');
+    const totalData: ISummary = {
+      date: totals[0],
+      hour: totals[1],
+      cases: totals[2],
+      deads: totals[3],
+      recovered: totals[4],
+      hospitalized: totals[5],
+      latest24h: totals[6]
+    };
+    return totalData;
   }
 
   public extractData(data: any) {

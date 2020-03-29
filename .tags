@@ -1,0 +1,44 @@
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^<mat-card class="card">$/;"	function	line:1
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^  <mat-card-title>$/;"	function	line:2
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^  <mat-card-content>$/;"	function	line:5
+ul	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <ul><li><span class="summary__key"><h3>Afectados:<\/h3><\/span><span class="summary__value"><h3>{{ totalData.cases}}<\/h3><\/span><\/li>$/;"	function	line:6
+li	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^      <li><span class="summary__key">Fallecidos:<\/span><span class="summary__value"> {{ totalData.deads}}<\/span><\/li>$/;"	function	line:7
+li	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^      <li><span class="summary__key">Recuperados:<\/span><span class="summary__value"> {{ totalData.recovered}}<\/span><\/li>$/;"	function	line:8
+li	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^      <li><span class="summary__key">Hospitalizados:<\/span><span class="summary__value"> {{ totalData.hospitalized}}<\/span><\/li>$/;"	function	line:9
+li	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^      <li><span class="summary__key">Últimas 24h:<\/span><span class="summary__value"> {{ totalData.latest24h}}<\/span><\/li>$/;"	function	line:10
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^  <mat-card-footer>$/;"	function	line:13
+span	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <span class="card__footer"> {{ totalData.date}} {{ totalData.hour}}<\/span>$/;"	function	line:14
+.summary	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^.summary {$/;"	function	line:1
+ul	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^  ul {$/;"	function	line:2
+li	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^    li {$/;"	function	line:5
+&__key	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^  &__key {$/;"	function	line:11
+&__value	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^  &__value {$/;"	function	line:15
+app	/home/tecnual/proyectos/tecnual/covid/src/app/app.component.html	/^<app-header><\/app-header>$/;"	function	line:1
+div	/home/tecnual/proyectos/tecnual/covid/src/app/app.component.html	/^<div class="app">$/;"	function	line:2
+app	/home/tecnual/proyectos/tecnual/covid/src/app/app.component.html	/^  <app-home class="content"><\/app-home>$/;"	function	line:3
+app	/home/tecnual/proyectos/tecnual/covid/src/app/app.component.html	/^  <app-footer class="footer"><\/app-footer>$/;"	function	line:4
+html	/home/tecnual/proyectos/tecnual/covid/src/index.html	/^<html lang="en">$/;"	function	line:2
+head	/home/tecnual/proyectos/tecnual/covid/src/index.html	/^<head>$/;"	function	line:3
+meta	/home/tecnual/proyectos/tecnual/covid/src/index.html	/^  <meta charset="utf-8">$/;"	function	line:4
+title	/home/tecnual/proyectos/tecnual/covid/src/index.html	/^  <title>Covid19 stats<\/title>$/;"	function	line:5
+base	/home/tecnual/proyectos/tecnual/covid/src/index.html	/^  <base href="\/">$/;"	function	line:6
+meta	/home/tecnual/proyectos/tecnual/covid/src/index.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1">$/;"	function	line:7
+link	/home/tecnual/proyectos/tecnual/covid/src/index.html	/^  <link rel="icon" type="image\/x-icon" href="favicon.ico">$/;"	function	line:8
+link	/home/tecnual/proyectos/tecnual/covid/src/index.html	/^  <link href='https:\/\/fonts.googleapis.com\/css?family=Lato' rel='stylesheet'>$/;"	function	line:9
+link	/home/tecnual/proyectos/tecnual/covid/src/index.html	/^  <link href="https:\/\/fonts.googleapis.com\/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">$/;"	function	line:10
+link	/home/tecnual/proyectos/tecnual/covid/src/index.html	/^  <link href="https:\/\/fonts.googleapis.com\/icon?family=Material+Icons" rel="stylesheet">$/;"	function	line:11
+body	/home/tecnual/proyectos/tecnual/covid/src/index.html	/^<body class="mat-typography">$/;"	function	line:13
+app	/home/tecnual/proyectos/tecnual/covid/src/index.html	/^  <app-root><\/app-root>$/;"	function	line:14
+.content	/home/tecnual/proyectos/tecnual/covid/src/scss/pages/_home.scss	/^.content {$/;"	function	line:1
+.app	/home/tecnual/proyectos/tecnual/covid/src/scss/layout/_app.scss	/^.app {$/;"	function	line:1
+.card	/home/tecnual/proyectos/tecnual/covid/src/scss/layout/_app.scss	/^.card {$/;"	function	line:14
+&__footer	/home/tecnual/proyectos/tecnual/covid/src/scss/layout/_app.scss	/^  &__footer {$/;"	function	line:17
+*	/home/tecnual/proyectos/tecnual/covid/src/scss/base/_base.scss	/^*,$/;"	function	line:1
+*::after	/home/tecnual/proyectos/tecnual/covid/src/scss/base/_base.scss	/^*::after,$/;"	function	line:2
+*::before	/home/tecnual/proyectos/tecnual/covid/src/scss/base/_base.scss	/^*::before {$/;"	function	line:3
+html	/home/tecnual/proyectos/tecnual/covid/src/scss/base/_base.scss	/^html {$/;"	function	line:9
+body	/home/tecnual/proyectos/tecnual/covid/src/scss/base/_base.scss	/^body {$/;"	function	line:14
+default-font-size	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$default-font-size: 10px;$/;"	function	line:3
+grid-width	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$grid-width: 114rem;$/;"	function	line:7
+gutter-vertical	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$gutter-vertical: 8rem;$/;"	function	line:8
+gutter-horizontal	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$gutter-horizontal: 6rem;$/;"	function	line:9

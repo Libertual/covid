@@ -1,0 +1,17 @@
+<mat-card class="card">
+  <mat-card-title class="heading-secondary card__title">
+    Resumen
+  </mat-card-title>
+  <mat-card-content class="card__content">
+    <ul>
+      <li class="heading-tertiary"><span class="summary__key">Afectados:</span><span class="summary__value">{{ totalData.cases}}</span></li>
+      <li><span class="summary__key">Fallecidos:</span><span class="summary__value"> {{ totalData.deads}}</span></li>
+      <li><span class="summary__key">Recuperados:</span><span class="summary__value"> {{ totalData.recovered}}</span></li>
+      <li><span class="summary__key">Hospitalizados:</span><span class="summary__value"> {{ totalData.hospitalized}}</span></li>
+      <li><span class="summary__key">Últimas 24h:</span><span class="summary__value"> {{ totalData.latest24h}}</span></li>
+    </ul>
+  </mat-card-content>
+  <mat-card-footer class="card__footer">
+    <span> {{ totalData.date}} {{ totalData.hour}}</span>
+  </mat-card-footer>
+</mat-card>
