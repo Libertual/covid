@@ -2,18 +2,15 @@ import { Component, OnInit } from '@angular/core';
 import { ChartOptions, ChartType } from 'chart.js';
 import { Color } from 'ng2-charts';
 
-import { first } from 'rxjs/operators';
-
-import { LineChartService } from './line-chart.service';
-import { IChartData } from './interfaces/chartData.interface';
+import { CovidDataService } from '../../../share/services/covid-data.service';
+import { IChartData } from '../../../share/interfaces/chart-data.interface';
 
 @Component({
   selector: 'app-line-chart',
-  templateUrl: './line-chart.component.html',
-  styleUrls: ['./line-chart.component.scss']
+  templateUrl: './line-chart.component.html'
 })
-export class LineChartComponent implements OnInit {
 
+export class LineChartComponent implements OnInit {
   public chartData: IChartData = {
     lineChartData: [{ data: [] }],
     lineChartLabels: []
@@ -57,10 +54,10 @@ export class LineChartComponent implements OnInit {
   public lineChartType: ChartType = 'line';
   public lineChartPlugins = [];
 
-  constructor(private lineChartService: LineChartService) { }
+  constructor(private covidDataService: CovidDataService) { }
 
   public ngOnInit() {
-    this.lineChartService.getCovidData().pipe(first())
-        .subscribe((data) => this.chartData = this.lineChartService.extractData(data));
+    this.covidDataService.getCovidData()
+        .subscribe((data) => this.chartData = this.covidDataService.extractData(data));
   }
 }

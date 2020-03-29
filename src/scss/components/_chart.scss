@@ -1,5 +1,11 @@
 .chart {
-  display: block;
-  max-width: 100rem;
-  width: 90vw;
+  flex: 1;
+
+  mat-card canvas {
+    display: block;
+    width: 100% !important;
+    min-width: 30rem;
+    max-height: 40rem;
+    align-items: center;
+  }
 }

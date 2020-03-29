@@ -2,23 +2,23 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { ChartsModule } from 'ng2-charts';
-
 import { AppComponent } from './app.component';
-import { LineChartComponent } from './line-chart/line-chart.component';
 
-import { LayoutModule } from './layout/layout.module';
+import { HomeModule } from './modules/home/home.module';
+
+import { LayoutModule } from './modules/layout/layout.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    LineChartComponent
+    AppComponent
   ],
   imports: [
     HttpClientModule,
     BrowserModule,
-    ChartsModule,
-    LayoutModule
+    LayoutModule,
+    HomeModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

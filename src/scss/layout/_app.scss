@@ -1,13 +1,28 @@
 .app {
-  //width: 100%;
-  position: absolute;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  justify-content: center;
   align-items: stretch;
-  margin: 7rem 0 0 0;
-  padding: 0;
+  align-content: center;
   background-color: $color-grey-light-1;
   width: 100%;
   height: calc(100vh - 7rem);
+}
+
+.card {
+  margin: 1rem;
+
+  &__title {
+    margin: 0 -16px;
+    padding: 0 0 8px 16px;
+    border-bottom: .1rem solid $color-grey-light-3;
+  }
+
+  &__footer {
+    margin: 0 2rem;
+    padding: 0 4rem;
+    border-top: .1rem solid $color-grey-light-3;
+    text-align: center;
+  }
 }

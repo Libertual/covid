@@ -1,12 +1,10 @@
 .toolbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 7rem;
   display: flex;
-  align-items: stretch;
+  align-items: center;
+  justify-content: center;
   background-color: $color-primary;
   padding: 0 2rem;
   margin: 0;
   width: 100vw;
+  height: 7rem;
 }
