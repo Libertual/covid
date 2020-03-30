@@ -4,7 +4,7 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-default-font-size	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$default-font-size: 10px;$/;"	function	line:3
-grid-width	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$grid-width: 114rem;$/;"	function	line:7
-gutter-vertical	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$gutter-vertical: 8rem;$/;"	function	line:8
-gutter-horizontal	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$gutter-horizontal: 6rem;$/;"	function	line:9
+covid-primary	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-primary: mat-palette($mat-indigo);$/;"	function	line:36
+covid-accent	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-accent: mat-palette($mat-pink, A200, A100, A400);$/;"	function	line:37
+covid-warn	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-warn: mat-palette($mat-red);$/;"	function	line:40
+covid-theme	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-theme: mat-light-theaccme($covid-primary, $covid-accent, $covid-warn);$/;"	function	line:43

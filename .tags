@@ -42,3 +42,111 @@ default-font-size	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_vari
 grid-width	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$grid-width: 114rem;$/;"	function	line:7
 gutter-vertical	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$gutter-vertical: 8rem;$/;"	function	line:8
 gutter-horizontal	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$gutter-horizontal: 6rem;$/;"	function	line:9
+color-primary	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-primary: #703050;$/;"	function	line:1
+color-primary-light	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-primary-light: #702060;$/;"	function	line:2
+color-primary-dark	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-primary-dark: #250515;$/;"	function	line:3
+color-secondary	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-secondary: #15fcff;$/;"	function	line:5
+color-secondary-light	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-secondary-light: #35eeff;$/;"	function	line:6
+color-secondary-dark	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-secondary-dark: #145060;$/;"	function	line:7
+color-warn	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-warn: #e55525;$/;"	function	line:9
+color-warn-light	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-warn-light: #f08763;$/;"	function	line:10
+color-warn-dark	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-warn-dark: #963514;$/;"	function	line:11
+color-grey-light-1	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-light-1: #f7f7f7;$/;"	function	line:13
+color-grey-light-2	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-light-2: #ddd;$/;"	function	line:14
+color-grey-light-3	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-light-3: #bbb;$/;"	function	line:15
+color-grey-dark	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-dark: #777;$/;"	function	line:17
+color-grey-dark-2	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-dark-2: #999;$/;"	function	line:18
+color-grey-dark-3	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-dark-3: #333;$/;"	function	line:19
+color-white	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-white: #fff;$/;"	function	line:21
+color-black	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-black: #000;$/;"	function	line:22
+cvd-primary	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^$cvd-primary: ($/;"	function	line:2
+50 : #eee6ea	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    50 : #eee6ea,$/;"	function	line:3
+100 : #d4c1cb	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    100 : #d4c1cb,$/;"	function	line:4
+200 : #b898a8	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    200 : #b898a8,$/;"	function	line:5
+300 : #9b6e85	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    300 : #9b6e85,$/;"	function	line:6
+400 : #854f6a	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    400 : #854f6a,$/;"	function	line:7
+500 : #703050	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    500 : #703050,$/;"	function	line:8
+600 : #682b49	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    600 : #682b49,$/;"	function	line:9
+700 : #5d2440	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    700 : #5d2440,$/;"	function	line:10
+800 : #531e37	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    800 : #531e37,$/;"	function	line:11
+900 : #411327	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    900 : #411327,$/;"	function	line:12
+A100 : #ff7eb1	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    A100 : #ff7eb1,$/;"	function	line:13
+A200 : #ff4b93	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    A200 : #ff4b93,$/;"	function	line:14
+A400 : #ff1874	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    A400 : #ff1874,$/;"	function	line:15
+A700 : #fd0065	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    A700 : #fd0065,$/;"	function	line:16
+50 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        50 : #000000,$/;"	function	line:18
+100 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        100 : #000000,$/;"	function	line:19
+200 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        200 : #000000,$/;"	function	line:20
+300 : #ffffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        300 : #ffffff,$/;"	function	line:21
+400 : #ffffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        400 : #ffffff,$/;"	function	line:22
+500 : #ffffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        500 : #ffffff,$/;"	function	line:23
+600 : #ffffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        600 : #ffffff,$/;"	function	line:24
+700 : #ffffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        700 : #ffffff,$/;"	function	line:25
+800 : #ffffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        800 : #ffffff,$/;"	function	line:26
+900 : #ffffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        900 : #ffffff,$/;"	function	line:27
+A100 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        A100 : #000000,$/;"	function	line:28
+A200 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        A200 : #000000,$/;"	function	line:29
+A400 : #ffffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        A400 : #ffffff,$/;"	function	line:30
+A700 : #ffffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        A700 : #ffffff,$/;"	function	line:31
+cvd-accent	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^$cvd-accent: ($/;"	function	line:35
+50 : #e3ffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    50 : #e3ffff,$/;"	function	line:36
+100 : #b9feff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    100 : #b9feff,$/;"	function	line:37
+200 : #8afeff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    200 : #8afeff,$/;"	function	line:38
+300 : #5bfdff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    300 : #5bfdff,$/;"	function	line:39
+400 : #38fcff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    400 : #38fcff,$/;"	function	line:40
+500 : #15fcff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    500 : #15fcff,$/;"	function	line:41
+600 : #12fcff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    600 : #12fcff,$/;"	function	line:42
+700 : #0ffbff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    700 : #0ffbff,$/;"	function	line:43
+800 : #0cfbff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    800 : #0cfbff,$/;"	function	line:44
+900 : #06faff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    900 : #06faff,$/;"	function	line:45
+A100 : #ffffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    A100 : #ffffff,$/;"	function	line:46
+A200 : #f3ffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    A200 : #f3ffff,$/;"	function	line:47
+A400 : #c0feff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    A400 : #c0feff,$/;"	function	line:48
+A700 : #a7fdff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    A700 : #a7fdff,$/;"	function	line:49
+50 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        50 : #000000,$/;"	function	line:51
+100 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        100 : #000000,$/;"	function	line:52
+200 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        200 : #000000,$/;"	function	line:53
+300 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        300 : #000000,$/;"	function	line:54
+400 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        400 : #000000,$/;"	function	line:55
+500 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        500 : #000000,$/;"	function	line:56
+600 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        600 : #000000,$/;"	function	line:57
+700 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        700 : #000000,$/;"	function	line:58
+800 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        800 : #000000,$/;"	function	line:59
+900 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        900 : #000000,$/;"	function	line:60
+A100 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        A100 : #000000,$/;"	function	line:61
+A200 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        A200 : #000000,$/;"	function	line:62
+A400 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        A400 : #000000,$/;"	function	line:63
+A700 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        A700 : #000000,$/;"	function	line:64
+cvd-warn	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^$cvd-warn: ($/;"	function	line:68
+50 : #fcebe5	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    50 : #fcebe5,$/;"	function	line:69
+100 : #f7ccbe	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    100 : #f7ccbe,$/;"	function	line:70
+200 : #f2aa92	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    200 : #f2aa92,$/;"	function	line:71
+300 : #ed8866	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    300 : #ed8866,$/;"	function	line:72
+400 : #e96f46	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    400 : #e96f46,$/;"	function	line:73
+500 : #e55525	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    500 : #e55525,$/;"	function	line:74
+600 : #e24e21	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    600 : #e24e21,$/;"	function	line:75
+700 : #de441b	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    700 : #de441b,$/;"	function	line:76
+800 : #da3b16	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    800 : #da3b16,$/;"	function	line:77
+900 : #d32a0d	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    900 : #d32a0d,$/;"	function	line:78
+A100 : #ffffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    A100 : #ffffff,$/;"	function	line:79
+A200 : #ffd2cc	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    A200 : #ffd2cc,$/;"	function	line:80
+A400 : #ffa599	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    A400 : #ffa599,$/;"	function	line:81
+A700 : #ff8e80	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    A700 : #ff8e80,$/;"	function	line:82
+50 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        50 : #000000,$/;"	function	line:84
+100 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        100 : #000000,$/;"	function	line:85
+200 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        200 : #000000,$/;"	function	line:86
+300 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        300 : #000000,$/;"	function	line:87
+400 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        400 : #000000,$/;"	function	line:88
+500 : #ffffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        500 : #ffffff,$/;"	function	line:89
+600 : #ffffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        600 : #ffffff,$/;"	function	line:90
+700 : #ffffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        700 : #ffffff,$/;"	function	line:91
+800 : #ffffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        800 : #ffffff,$/;"	function	line:92
+900 : #ffffff	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        900 : #ffffff,$/;"	function	line:93
+A100 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        A100 : #000000,$/;"	function	line:94
+A200 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        A200 : #000000,$/;"	function	line:95
+A400 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        A400 : #000000,$/;"	function	line:96
+A700 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        A700 : #000000,$/;"	function	line:97
+covid-primary	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-primary: mat-palette($mat-indigo);$/;"	function	line:36
+covid-accent	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-accent: mat-palette($mat-pink, A200, A100, A400);$/;"	function	line:37
+covid-warn	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-warn: mat-palette($mat-red);$/;"	function	line:40
+covid-theme	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-theme: mat-light-theaccme($covid-primary, $covid-accent, $covid-warn);$/;"	function	line:43
