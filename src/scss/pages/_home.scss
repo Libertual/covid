@@ -1,5 +1,5 @@
 .content {
-  background-color: $color-grey-light-2;
+  background-color: mat-color($covid-primary, 50);
   display:flex;
   flex: 1 1 auto;
   flex-direction: row;

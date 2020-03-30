@@ -1,12 +1,13 @@
-$color-primary: #703050;
-$color-primary-light: #702060;
-$color-primary-dark: #250515;
+$color-primary: mat-color($covid-primary);
+$color-primary-light-1: mat-color($covid-primary, 50);
+$color-primary-light-2: mat-color($covid-primary, 100);
+$color-primary-dark: mat-color($covid-primary, 900);;
 
-$color-secondary: #2aafbb;
+$color-secondary: #15fcff;
 $color-secondary-light: #35eeff;
 $color-secondary-dark: #145060;
 
-$color-warn: #e55525;
+$color-warn: mat-color($covid-warn);
 $color-warn-light: #f08763;
 $color-warn-dark: #963514;
 
