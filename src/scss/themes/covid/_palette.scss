@@ -1,0 +1,136 @@
+// Color palettes from the Material Design spec.
+// See https://material.io/design/color/
+//
+// Contrast colors are hard-coded because it is too difficult (probably impossible) to
+// calculate them. These contrast colors are pulled from the public Material Design spec swatches.
+// While the contrast colors in the spec are not prescriptive, we use them for convenience.
+
+
+// @deprecated renamed to $dark-primary-text.
+// @breaking-change 8.0.0
+$black-87-opacity: rgba(black, 0.87);
+// @deprecated renamed to $light-primary-text.
+// @breaking-change 8.0.0
+$white-87-opacity: rgba(white, 0.87);
+// @deprecated use $dark-[secondary-text,disabled-text,dividers,focused] instead.
+// @breaking-change 8.0.0
+$black-12-opacity: rgba(black, 0.12);
+// @deprecated use $light-[secondary-text,disabled-text,dividers,focused] instead.
+// @breaking-change 8.0.0
+$white-12-opacity: rgba(white, 0.12);
+// @deprecated use $dark-[secondary-text,disabled-text,dividers,focused] instead.
+// @breaking-change 8.0.0
+$black-6-opacity: rgba(black, 0.06);
+// @deprecated use $light-[secondary-text,disabled-text,dividers,focused] instead.
+// @breaking-change 8.0.0
+$white-6-opacity: rgba(white, 0.06);
+
+$dark-primary-text: rgba(black, 0.87);
+$dark-secondary-text: rgba(black, 0.54);
+$dark-disabled-text: rgba(black, 0.38);
+$dark-dividers: rgba(black, 0.12);
+$dark-focused: rgba(black, 0.12);
+$light-primary-text: white;
+$light-secondary-text: rgba(white, 0.7);
+$light-disabled-text: rgba(white, 0.5);
+$light-dividers: rgba(white, 0.12);
+$light-focused: rgba(white, 0.12);
+
+$cvd-primary: (
+    50 : #eee6ea,
+    100 : #d4c1cb,
+    200 : #b898a8,
+    300 : #9b6e85,
+    400 : #854f6a,
+    500 : #703050,
+    600 : #682b49,
+    700 : #5d2440,
+    800 : #531e37,
+    900 : #411327,
+    A100 : #ff7eb1,
+    A200 : #ff4b93,
+    A400 : #ff1874,
+    A700 : #fd0065,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #ffffff,
+        400 : #ffffff,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #ffffff,
+        A700 : #ffffff,
+    )
+);
+
+$cvd-accent: (
+    50 : #e3ffff,
+    100 : #b9feff,
+    200 : #8afeff,
+    300 : #5bfdff,
+    400 : #38fcff,
+    500 : #15fcff,
+    600 : #12fcff,
+    700 : #0ffbff,
+    800 : #0cfbff,
+    900 : #06faff,
+    A100 : #ffffff,
+    A200 : #f3ffff,
+    A400 : #c0feff,
+    A700 : #a7fdff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$cvd-warn: (
+    50 : #fcebe5,
+    100 : #f7ccbe,
+    200 : #f2aa92,
+    300 : #ed8866,
+    400 : #e96f46,
+    500 : #e55525,
+    600 : #e24e21,
+    700 : #de441b,
+    800 : #da3b16,
+    900 : #d32a0d,
+    A100 : #ffffff,
+    A200 : #ffd2cc,
+    A400 : #ffa599,
+    A700 : #ff8e80,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);

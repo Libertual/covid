@@ -3,12 +3,12 @@
     Resumen
   </mat-card-title>
   <mat-card-content class="card__content">
-    <ul>
-      <li class="heading-tertiary"><span class="summary__key">Afectados:</span><span class="summary__value">{{ totalData.cases}}</span></li>
-      <li><span class="summary__key">Afectados últimas 24h:</span><span class="summary__value"> {{ totalData.latest24h}}</span></li>
-      <li><span class="summary__key">Fallecidos:</span><span class="summary__value"> {{ totalData.deads}}</span></li>
-      <li><span class="summary__key">Recuperados:</span><span class="summary__value"> {{ totalData.recovered}}</span></li>
-      <li><span class="summary__key">Hospitalizados:</span><span class="summary__value"> {{ totalData.hospitalized}}</span></li>
+    <ul class="summary__list">
+      <li class="heading-tertiary summary__list-item"><span class="summary__list-item--key">Afectados:</span><span class="summary__list-item--value">{{ totalData.cases}}</span></li>
+      <li class="summary__list-item"><span class="summary__list-item--key">Afectados últimas 24h:</span><span class="summary__list-item--value"> {{ totalData.latest24h}}</span></li>
+      <li class="summary__list-item"><span class="summary__list-item--key">Fallecidos:</span><span class="summary__list-item--value"> {{ totalData.deads}}</span></li>
+      <li class="summary__list-item"><span class="summary__list-item--key">Recuperados:</span><span class="summary__list-item--value"> {{ totalData.recovered}}</span></li>
+      <li class="summary__list-item"><span class="summary__list-item--key">Hospitalizados:</span><span class="summary__list-item--value"> {{ totalData.hospitalized}}</span></li>
     </ul>
   </mat-card-content>
   <mat-card-footer class="card__footer">
