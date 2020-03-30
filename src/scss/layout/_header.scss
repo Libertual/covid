@@ -3,7 +3,12 @@
   width: 100vw;
   height: 6rem;
   background-color: $color-grey-light-1;
+
   &__toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
     position: fixed;
     height: 6rem !important;
     top: 0;
