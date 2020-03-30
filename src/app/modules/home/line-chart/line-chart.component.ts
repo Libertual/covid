@@ -25,6 +25,12 @@ export class LineChartComponent implements OnInit {
           min: '2020-02-20',
           maxTicksLimit: 10
         }
+      }],
+      yAxes: [{
+        type: 'linear',
+        ticks: {
+          maxTicksLimit: 6
+        }
       }]
     }
   };
