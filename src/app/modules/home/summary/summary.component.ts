@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { CovidDataService } from '../../../share/services/covid-data.service';
-import { ISummary } from '../../../share/interfaces/summary.interface';
+import { ISummary } from './summary.interface';
 
 @Component({
   selector: 'app-summary',

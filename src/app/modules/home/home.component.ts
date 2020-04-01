@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
-import { ChartOptions, ChartConfiguration } from 'chart.js';
+import { ChartOptions} from 'chart.js';
 
-import { ChartsService } from '../../share/services/charts.service';
 import { CovidDataService } from '../../share/services/covid-data.service';
 import { ChartConfig } from './chart/chart-config.class';
+
+import { IChartConfig } from './chart/chart-config.interface';
 
 @Component({
   selector: 'app-home',
@@ -19,7 +20,7 @@ export class HomeComponent implements OnInit {
       xAxes: [{
         type: 'time',
         ticks: {
-          min: '2020-03-10',
+          min: '2020-03-08',
           maxTicksLimit: 10
         }
       }],
@@ -32,12 +33,11 @@ export class HomeComponent implements OnInit {
     }
   };
 
-  public totalDataChart: ChartConfiguration = new ChartConfig();
+  public totalDataChart: IChartConfig = new ChartConfig();
 
-  public deathRateChart: ChartConfiguration = new ChartConfig(this.deadRateChartOptions);
+  public deathRateChart: IChartConfig = new ChartConfig(this.deadRateChartOptions);
 
   constructor(
-    private chartsService: ChartsService,
     private covidDataService: CovidDataService
   ) { }
 
@@ -45,7 +45,7 @@ export class HomeComponent implements OnInit {
 
     this.covidDataService.getTotalData()
         .subscribe((data) => {
-          this.deathRateChart = { ...this.deathRateChart, ...this.chartsService.getDeathRate(data) };
+          this.deathRateChart = { ...this.deathRateChart, ...this.covidDataService.parseDeathRateData(data) };
         });
 
     this.covidDataService.getCovidData()

@@ -1,3 +1,21 @@
+<<<<<<< develop:src/app/modules/home/line-chart/line-chart.component.ts
+import { Component, OnInit, Input } from '@angular/core';
+
+import { IChartData } from '../../../share/interfaces/chart-data.interface';
+
+@Component({
+  selector: 'app-line-chart',
+  templateUrl: './line-chart.component.html'
+})
+
+export class LineChartComponent implements OnInit {
+  @Input() public chartData: IChartData;
+
+  constructor() {
+  }
+
+  public ngOnInit() {
+=======
 import { ChartOptions, ChartType, ChartData } from 'chart.js';
 import { Color } from 'ng2-charts';
 
@@ -54,5 +72,6 @@ export class ChartConfig implements IChartConfig {
           }]
         }
       };
+>>>>>>> Merge branch 'release/1.1.0':src/app/modules/home/chart/chart-config.class.ts
   }
 }

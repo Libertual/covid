@@ -6,14 +6,12 @@ import { ChartsModule } from 'ng2-charts';
 
 import { HomeComponent } from './home.component';
 import { SummaryComponent } from './summary/summary.component';
-import { LineChartComponent } from './line-chart/line-chart.component';
 import { ChartComponent } from './chart/chart.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     SummaryComponent,
-    LineChartComponent,
     ChartComponent
   ],
   imports: [
@@ -24,7 +22,6 @@ import { ChartComponent } from './chart/chart.component';
   exports: [
     HomeComponent,
     SummaryComponent,
-    LineChartComponent,
     ChartComponent
   ]
 })

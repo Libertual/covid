@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import { ISummary } from '../interfaces/summary.interface';
+import { ISummary } from '../../modules/home/summary/summary.interface';
+import { IChartConfig } from '../../modules/home/chart/chart-config.interface';
 
 import { ChartConfiguration } from 'chart.js';
 
@@ -51,8 +52,8 @@ export class CovidDataService {
     return totalData;
   }
 
-  public parseDeathRateData(data: any): ChartConfiguration {
-    const chartData: ChartConfiguration = {
+  public parseDeathRateData(data: any): IChartConfig {
+    const chartData: IChartConfig = {
       data: { datasets: [],
               labels: []
             }
@@ -84,14 +85,14 @@ export class CovidDataService {
     return chartData;
   }
 
-  public extractData(data: any) {
+  public extractData(data: any): IChartConfig {
     const lines = data.split('\n');
 
     lines.splice(0, 1);
     lines.splice(lines.length - 2, 2);
     let fields: string[];
     const casesByDateAndRegion = [];
-    const chartData: ChartConfiguration = {
+    const chartData: IChartConfig = {
       data: { datasets: [],
               labels: []
             }
