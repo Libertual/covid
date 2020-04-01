@@ -4,8 +4,6 @@ import { HttpClient } from '@angular/common/http';
 import { ISummary } from '../../modules/home/summary/summary.interface';
 import { IChartConfig } from '../../modules/home/chart/chart-config.interface';
 
-import { ChartConfiguration } from 'chart.js';
-
 @Injectable({
   providedIn: 'root'
 })
@@ -131,4 +129,22 @@ export class CovidDataService {
     });
     return chartData;
   }
+
+  public parseDailyCasesData(data: any): IChartConfig {
+    const chartData: IChartConfig = {
+      data: { datasets: [],
+              labels: []
+            }
+      };
+
+    data.map((item: any) => {
+    chartData.data.labels.push(item.date);
+
+    if (!chartData.data.datasets[0]) { chartData.data.datasets[0] = {data: [], label: 'Nuevos casos en 24h'}; }
+    chartData.data.datasets[0].data.push(item.latest24h);
+    });
+
+    return chartData;
+  }
+
 }
