@@ -1,8 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { ChartOptions, ChartType } from 'chart.js';
-import { Color } from 'ng2-charts';
+import { Component, OnInit, Input } from '@angular/core';
 
-import { CovidDataService } from '../../../share/services/covid-data.service';
 import { IChartData } from '../../../share/interfaces/chart-data.interface';
 
 @Component({
@@ -11,59 +8,11 @@ import { IChartData } from '../../../share/interfaces/chart-data.interface';
 })
 
 export class LineChartComponent implements OnInit {
-  public chartData: IChartData = {
-    lineChartData: [{ data: [] }],
-    lineChartLabels: []
-  };
+  @Input() public chartData: IChartData;
 
-  public lineChartOptions: ChartOptions = {
-    responsive: true,
-    scales: {
-      xAxes: [{
-        type: 'time',
-        ticks: {
-          min: '2020-02-20',
-          maxTicksLimit: 10
-        }
-      }],
-      yAxes: [{
-        type: 'linear',
-        ticks: {
-          maxTicksLimit: 6
-        }
-      }]
-    }
-  };
-  public lineChartColors: Color[] = [
-    {
-      borderColor: '#777',
-      backgroundColor: 'transparent'
-    },
-    {
-      borderColor: '#33b440',
-      backgroundColor: 'transparent'
-    },
-    {
-      borderColor: '#005577',
-      backgroundColor: 'transparent'
-    },
-    {
-      borderColor: '#c24822',
-      backgroundColor: 'transparent'
-    },
-    {
-      borderColor: '#000000',
-      backgroundColor: 'transparent'
-    }
-  ];
-  public lineChartLegend = true;
-  public lineChartType: ChartType = 'line';
-  public lineChartPlugins = [];
-
-  constructor(private covidDataService: CovidDataService) { }
+  constructor() {
+  }
 
   public ngOnInit() {
-    this.covidDataService.getCovidData()
-        .subscribe((data) => this.chartData = this.covidDataService.extractData(data));
   }
 }

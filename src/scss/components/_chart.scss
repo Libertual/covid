@@ -1,10 +1,10 @@
 .chart {
-  flex: 1;
 
   mat-card canvas {
     display: block;
-    width: 100% !important;
+    //width: 100% !important;
     min-width: 30rem;
+    width: 50vw !important;
     max-height: 40rem;
     align-items: center;
   }

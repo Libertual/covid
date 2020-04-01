@@ -8,4 +8,8 @@
   align-items: stretch;
   align-content: stretch;
   padding: 1rem;
+
+  @include respond(phone) {
+    padding: 1rem 0;
+  }
 }

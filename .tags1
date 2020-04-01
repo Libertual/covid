@@ -4,7 +4,3 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-covid-primary	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-primary: mat-palette($mat-indigo);$/;"	function	line:36
-covid-accent	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-accent: mat-palette($mat-pink, A200, A100, A400);$/;"	function	line:37
-covid-warn	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-warn: mat-palette($mat-red);$/;"	function	line:40
-covid-theme	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-theme: mat-light-theaccme($covid-primary, $covid-accent, $covid-warn);$/;"	function	line:43

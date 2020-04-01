@@ -3,21 +3,32 @@ import { HttpClient } from '@angular/common/http';
 
 import { ISummary } from '../interfaces/summary.interface';
 
+import { ChartConfiguration } from 'chart.js';
+
 @Injectable({
   providedIn: 'root'
 })
+
 export class CovidDataService {
+  private population = {
+    spain: 47100396
+  };
   private dataPath = 'assets/data/';
   // private dataPath = '/resources/';
 
   private covidCCAAFile = 'serie_historica_acumulados.csv';
   private totalDataFile = 'data.csv';
+  private totalData = 'assets/data/' + 'covid.json';
   // private ccaaFile = 'ccaa.csv';
   // private covidUrl = '/resources/serie_historica_acumulados.csv';
 
   constructor(private http: HttpClient) { }
 
   public getTotalData() {
+    return this.http.get(this.totalData, {responseType: 'json'});
+  }
+
+  public getTotalDataFile() {
     return this.http.get(this.dataPath + this.totalDataFile, {responseType: 'text'});
   }
 
@@ -25,7 +36,7 @@ export class CovidDataService {
     return this.http.get(this.dataPath + this.covidCCAAFile, {responseType: 'text'});
   }
 
-  public parseTotalData(data: any) {
+  public parseTotalDataFile(data: any) {
     const lines = data.split('\n');
     const totals = lines[1].split(',');
     const totalData: ISummary = {
@@ -40,6 +51,39 @@ export class CovidDataService {
     return totalData;
   }
 
+  public parseDeathRateData(data: any): ChartConfiguration {
+    const chartData: ChartConfiguration = {
+      data: { datasets: [],
+              labels: []
+            }
+      };
+
+    data.map((item: any) => {
+    chartData.data.labels.push(item.date);
+
+    let recoveredRate = (item.deads * 100) / (item.recovered + item.deads);
+    recoveredRate = Number(new Intl.NumberFormat('en-us', {maximumFractionDigits: 2}).format(recoveredRate));
+
+    let casesRate = (item.deads * 100) / item.cases;
+    casesRate = Number(new Intl.NumberFormat('en-us', {maximumFractionDigits: 2}).format(casesRate));
+
+    let populationRate = (item.deads * 100) / this.population.spain;
+    populationRate = Number(new Intl.NumberFormat('en-us', {maximumFractionDigits: 3}).format(populationRate));
+
+    if (!chartData.data.datasets[0]) { chartData.data.datasets[0] = {data: [], label: 'Recuperados'}; }
+    chartData.data.datasets[0].data.push(recoveredRate);
+
+    if (!chartData.data.datasets[1]) { chartData.data.datasets[1] = {data: [], label: 'Afectados'}; }
+    chartData.data.datasets[1].data.push(casesRate);
+
+    if (!chartData.data.datasets[2]) { chartData.data.datasets[2] = {data: [], label: 'Población'}; }
+    chartData.data.datasets[2].data.push(Number(populationRate));
+
+    });
+
+    return chartData;
+  }
+
   public extractData(data: any) {
     const lines = data.split('\n');
 
@@ -47,10 +91,11 @@ export class CovidDataService {
     lines.splice(lines.length - 2, 2);
     let fields: string[];
     const casesByDateAndRegion = [];
-    const chartData = {
-      lineChartData: [],
-      lineChartLabels: []
-    };
+    const chartData: ChartConfiguration = {
+      data: { datasets: [],
+              labels: []
+            }
+      };
     lines.map((line: string) => {
         fields = line.split(',');
 
@@ -69,21 +114,20 @@ export class CovidDataService {
     });
     Object.keys(casesByDateAndRegion).map((date) => {
       const dateFields = date.split('/');
-      chartData.lineChartLabels.push(`${dateFields[2]}-${dateFields[1]}-${dateFields[0]}`);
+      chartData.data.labels.push(`${dateFields[2]}-${dateFields[1]}-${dateFields[0]}`);
 
-      if (!chartData.lineChartData[0]) { chartData.lineChartData[0] = {data: [], label: 'Afectados'}; }
-      chartData.lineChartData[0].data.push(casesByDateAndRegion[date].total.cases);
+      if (!chartData.data.datasets[0]) { chartData.data.datasets[0] = {data: [], label: 'Afectados'}; }
+      chartData.data.datasets[0].data.push(casesByDateAndRegion[date].total.cases);
 
-      if (!chartData.lineChartData[1]) { chartData.lineChartData[1] = {data: [], label: 'Hospitalizados'}; }
-      chartData.lineChartData[1].data.push(casesByDateAndRegion[date].total.hospitalized);
+      if (!chartData.data.datasets[1]) { chartData.data.datasets[1] = {data: [], label: 'Hospitalizados'}; }
+      chartData.data.datasets[1].data.push(casesByDateAndRegion[date].total.hospitalized);
 
-      if (!chartData.lineChartData[2]) { chartData.lineChartData[2] = {data: [], label: 'UCI'}; }
-      chartData.lineChartData[2].data.push(casesByDateAndRegion[date].total.uci);
+      if (!chartData.data.datasets[2]) { chartData.data.datasets[2] = {data: [], label: 'UCI'}; }
+      chartData.data.datasets[2].data.push(casesByDateAndRegion[date].total.uci);
 
-      if (!chartData.lineChartData[3]) { chartData.lineChartData[3] = {data: [], label: 'Fallecidos'}; }
-      chartData.lineChartData[3].data.push(casesByDateAndRegion[date].total.deads);
+      if (!chartData.data.datasets[3]) { chartData.data.datasets[3] = {data: [], label: 'Fallecidos'}; }
+      chartData.data.datasets[3].data.push(casesByDateAndRegion[date].total.deads);
     });
-    // console.log('chartData ', chartData);
     return chartData;
   }
 }
