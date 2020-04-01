@@ -1,4 +1,25 @@
-[{
+[
+  {
+    "date": "2020-03-04",
+    "hour": "20:00",
+    "cases": 238,
+    "deads": 0,
+    "recovered": 2,
+    "hospitalized": 0,
+    "UCI": 0,
+    "latest24h": 44
+  },
+  {
+    "date": "2020-03-05",
+    "hour": "20:00",
+    "cases": 364,
+    "deads": 0,
+    "recovered": 2,
+    "hospitalized": 0,
+    "UCI": 0,
+    "latest24h": 126
+  },
+  {
     "date": "2020-03-06",
     "hour": "20:00",
     "cases": 386,
@@ -6,7 +27,7 @@
     "recovered": 30,
     "hospitalized": 0,
     "UCI": 0,
-    "latest24h": 140
+    "latest24h": 22
   },
   {
     "date": "2020-03-07",

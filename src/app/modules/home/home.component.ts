@@ -37,6 +37,8 @@ export class HomeComponent implements OnInit {
 
   public deathRateChart: IChartConfig = new ChartConfig(this.deadRateChartOptions);
 
+  public dailyCasesChart: IChartConfig = new ChartConfig();
+
   constructor(
     private covidDataService: CovidDataService
   ) { }
@@ -51,6 +53,10 @@ export class HomeComponent implements OnInit {
     this.covidDataService.getCovidData()
         .subscribe((data) => {
             this.totalDataChart = {...this.totalDataChart, ...this.covidDataService.extractData(data)};
+        });
+    this.covidDataService.getTotalData()
+        .subscribe((data) => {
+            this.dailyCasesChart = {...this.dailyCasesChart, ...this.covidDataService.parseDailyCasesData(data)};
         });
 
   }
