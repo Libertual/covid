@@ -12,10 +12,15 @@
   margin: 1rem;
   flex-shrink: 1;
 
-  &__title {
-    margin: 0 -16px;
-    padding: 0 0 8px 16px;
-    border-bottom: .1rem solid $color-primary-light-2;
+  &__header {
+      margin: 0 -16px !important;
+      border-bottom: .1rem solid $color-primary-light-2;
+    &-title {
+
+    }
+  }
+
+  &__content {
   }
 
   &__footer {

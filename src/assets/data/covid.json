@@ -1,0 +1,211 @@
+[{
+    "date": "2020-03-10",
+    "hour": "20:00",
+    "cases": 2117,
+    "deads": 48,
+    "recovered": 183,
+    "hospitalized": 236,
+    "UCI": 270,
+    "latest24h": 511
+  },
+  {
+    "date": "2020-03-11",
+    "hour": "20:00",
+    "cases": 2929,
+    "deads": 84,
+    "recovered": 189,
+    "hospitalized": 399,
+    "UCI": 188,
+    "latest24h": 812
+  },
+  {
+    "date": "2020-03-12",
+    "hour": "20:00",
+    "cases": 4130,
+    "deads": 120,
+    "recovered": 193,
+    "hospitalized": 1858,
+    "UCI": 270,
+    "latest24h": 1201
+  },
+  {
+    "date": "2020-03-13",
+    "hour": "20:00",
+    "cases": 5844,
+    "deads": 134,
+    "recovered": 517,
+    "hospitalized": 2120,
+    "UCI": 296,
+    "latest24h": 1714
+  },
+  {
+    "date": "2020-03-14",
+    "hour": "20:00",
+    "cases": 7698,
+    "deads": 285,
+    "recovered": 517,
+    "hospitalized": 3096,
+    "UCI": 383,
+    "latest24h": 1854
+  },
+  {
+    "date": "2020-03-15",
+    "hour": "20:00",
+    "cases": 9149,
+    "deads": 306,
+    "recovered": 530,
+    "hospitalized": 3435,
+    "UCI": 416,
+    "latest24h": 1451
+  },
+  {
+    "date": "2020-03-16",
+    "hour": "20:00",
+    "cases": 11178,
+    "deads": 491,
+    "recovered": 1028,
+    "hospitalized": 5136,
+    "UCI": 563,
+    "latest24h": 2029
+  },
+  {
+    "date": "2020-03-17",
+    "hour": "20:00",
+    "cases": 13716,
+    "deads": 598,
+    "recovered": 1081,
+    "hospitalized": 5759,
+    "UCI": 774,
+    "latest24h": 2538
+  },
+  {
+    "date": "2020-03-18",
+    "hour": "20:00",
+    "cases": 17147,
+    "deads": 767,
+    "recovered": 1107,
+    "hospitalized": 7619,
+    "UCI": 939,
+    "latest24h": 3431
+  },
+  {
+    "date": "2020-03-19",
+    "hour": "20:00",
+    "cases": 19980,
+    "deads": 982,
+    "recovered": 1588,
+    "hospitalized": 10418,
+    "UCI": 1125,
+    "latest24h": 2833
+  },
+  {
+    "date": "2020-03-20",
+    "hour": "20:00",
+    "cases": 24926,
+    "deads": 1326,
+    "recovered": 2125,
+    "hospitalized": 13282,
+    "UCI": 1612,
+    "latest24h": 4946
+  },
+  {
+    "date": "2020-03-21",
+    "hour": "20:00",
+    "cases": 28572,
+    "deads": 1720,
+    "recovered": 2575,
+    "hospitalized": 15554,
+    "UCI": 1785,
+    "latest24h": 3646
+  },
+  {
+    "date": "2020-03-22",
+    "hour": "20:00",
+    "cases": 33089,
+    "deads": 2182,
+    "recovered": 3355,
+    "hospitalized": 18374,
+    "UCI": 2355,
+    "latest24h": 4517
+  },
+  {
+    "date": "2020-03-23",
+    "hour": "20:00",
+    "cases": 39673,
+    "deads": 2696,
+    "recovered": 3794,
+    "hospitalized": 22762,
+    "UCI": 2636,
+    "latest24h": 6584
+  },
+  {
+    "date": "2020-03-24",
+    "hour": "20:00",
+    "cases": 47610,
+    "deads": 3434,
+    "recovered": 5367,
+    "hospitalized": 26960,
+    "UCI": 3166,
+    "latest24h": 7937
+  },
+  {
+    "date": "2020-03-25",
+    "hour": "20:00",
+    "cases": 56188,
+    "deads": 4089,
+    "recovered": 7015,
+    "hospitalized": 31912,
+    "UCI": 3679,
+    "latest24h": 8578
+  },
+  {
+    "date": "2020-03-26",
+    "hour": "20:00",
+    "cases": 64059,
+    "deads": 4858,
+    "recovered": 9357,
+    "hospitalized": 36293,
+    "UCI": 4165,
+    "latest24h": 7871
+  },
+  {
+    "date": "2020-03-27",
+    "hour": "20:00",
+    "cases": 72248,
+    "deads": 5745,
+    "recovered": 12285,
+    "hospitalized": 40630,
+    "UCI": 4575,
+    "latest24h": 8189
+  },
+  {
+    "date": "2020-03-28",
+    "hour": "20:00",
+    "cases": 78797,
+    "deads": 6539,
+    "recovered": 14709,
+    "hospitalized": 43397,
+    "UCI": 4907,
+    "latest24h": 6549
+  },
+  {
+    "date": "2020-03-29",
+    "hour": "20:00",
+    "cases": 85195,
+    "deads": 7340,
+    "recovered": 16780,
+    "hospitalized": 46617,
+    "UCI": 5231,
+    "latest24h": 6398
+  },
+  {
+    "date": "2020-03-30",
+    "hour": "20:00",
+    "cases": 94417,
+    "deads": 8189,
+    "recovered": 19259,
+    "hospitalized": 49243,
+    "UCI": 5607,
+    "latest24h": 9222
+  }
+]

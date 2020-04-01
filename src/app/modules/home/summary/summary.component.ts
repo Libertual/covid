@@ -13,7 +13,7 @@ export class SummaryComponent implements OnInit {
   constructor( private covidDataService: CovidDataService ) { }
 
   public ngOnInit(): void {
-    this.covidDataService.getTotalData()
-            .subscribe((data) => this.totalData = this.covidDataService.parseTotalData(data));
+    this.covidDataService.getTotalDataFile()
+            .subscribe((data) => this.totalData = this.covidDataService.parseTotalDataFile(data));
   }
 }
