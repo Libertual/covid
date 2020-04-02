@@ -42,7 +42,7 @@ export class CovidDataService {
       date: totals[0],
       hour: totals[1],
       cases: totals[2],
-      deads: totals[3],
+      deaths: totals[3],
       recovered: totals[4],
       hospitalized: totals[5],
       latest24h: totals[6]
@@ -60,13 +60,13 @@ export class CovidDataService {
     data.map((item: any) => {
     chartData.data.labels.push(item.date);
 
-    let recoveredRate = (item.deads * 100) / (item.recovered + item.deads);
+    let recoveredRate = (item.deaths * 100) / (item.recovered + item.deaths);
     recoveredRate = Number(new Intl.NumberFormat('en-us', {maximumFractionDigits: 2}).format(recoveredRate));
 
-    let casesRate = (item.deads * 100) / item.cases;
+    let casesRate = (item.deaths * 100) / item.cases;
     casesRate = Number(new Intl.NumberFormat('en-us', {maximumFractionDigits: 2}).format(casesRate));
 
-    let populationRate = (item.deads * 100) / this.population.spain;
+    let populationRate = (item.deaths * 100) / this.population.spain;
     populationRate = Number(new Intl.NumberFormat('en-us', {maximumFractionDigits: 3}).format(populationRate));
 
     if (!chartData.data.datasets[0]) { chartData.data.datasets[0] = {data: [], label: 'Recuperados'}; }
@@ -100,15 +100,15 @@ export class CovidDataService {
 
         if (!casesByDateAndRegion[fields[1]]) {casesByDateAndRegion[fields[1]] = []; }
         if (!casesByDateAndRegion[fields[1]][fields[0]]) {casesByDateAndRegion[fields[1]][fields[0]] = {}; }
-        casesByDateAndRegion[fields[1]][fields[0]] = { cases: +fields[2], hospitalized: +fields[3], uci: +fields[4], deads: +fields[5] };
+        casesByDateAndRegion[fields[1]][fields[0]] = { cases: +fields[2], hospitalized: +fields[3], uci: +fields[4], deaths: +fields[5] };
         if (!casesByDateAndRegion[fields[1]].total) {
-          casesByDateAndRegion[fields[1]].total = { cases: 0, hospitalized: 0, uci: 0, deads: 0};
+          casesByDateAndRegion[fields[1]].total = { cases: 0, hospitalized: 0, uci: 0, deaths: 0};
         }
         casesByDateAndRegion[fields[1]].total = {
           cases: casesByDateAndRegion[fields[1]].total.cases += parseInt(fields[2], 10) || 0,
           hospitalized: casesByDateAndRegion[fields[1]].total.hospitalized += parseInt(fields[3], 10) || 0,
           uci: casesByDateAndRegion[fields[1]].total.uci += parseInt(fields[4], 10) || 0,
-          deads: casesByDateAndRegion[fields[1]].total.deads += parseInt(fields[5], 10) || 0
+          deaths: casesByDateAndRegion[fields[1]].total.deaths += parseInt(fields[5], 10) || 0
         };
     });
     Object.keys(casesByDateAndRegion).map((date) => {
@@ -125,7 +125,7 @@ export class CovidDataService {
       chartData.data.datasets[2].data.push(casesByDateAndRegion[date].total.uci);
 
       if (!chartData.data.datasets[3]) { chartData.data.datasets[3] = {data: [], label: 'Fallecidos'}; }
-      chartData.data.datasets[3].data.push(casesByDateAndRegion[date].total.deads);
+      chartData.data.datasets[3].data.push(casesByDateAndRegion[date].total.deaths);
     });
     return chartData;
   }

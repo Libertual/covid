@@ -17,7 +17,7 @@
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
 $covid-primary: mat-palette($cvd-primary);
-$covid-accent: mat-palette($cvd-accent, A200, A100, A400);
+$covid-accent: mat-palette($cvd-accent);
 
 // The warn palette is optional (defaults to red).
 $covid-warn: mat-palette($cvd-warn);
@@ -50,5 +50,8 @@ $covid-theme: mat-light-theme($covid-primary, $covid-accent, $covid-warn);
 @import "layout/footer";
 @import "layout/grid";
 @import "layout/header";
+
+@import "../app/app.component";
+
 
 @import "pages/home";

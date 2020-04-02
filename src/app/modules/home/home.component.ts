@@ -33,11 +33,49 @@ export class HomeComponent implements OnInit {
     }
   };
 
-  public totalDataChart: IChartConfig = new ChartConfig();
+  public casesChartOptions: ChartOptions = {
+    responsive: true,
+    scales: {
+      xAxes: [{
+        type: 'time',
+        ticks: {
+          min: '2020-02-20',
+          maxTicksLimit: 10
+        }
+      }],
+      yAxes: [{
+        type: 'linear',
+        ticks: {
+          maxTicksLimit: 10
+        }
+      }]
+    }
+  };
+
+  public dailyCasesChartOptions: ChartOptions = {
+    responsive: true,
+    scales: {
+      xAxes: [{
+        type: 'time',
+        ticks: {
+          min: '2020-02-20',
+          maxTicksLimit: 10
+        }
+      }],
+      yAxes: [{
+        type: 'linear',
+        ticks: {
+          maxTicksLimit: 10
+        }
+      }]
+    }
+  };
+
+  public totalDataChart: IChartConfig = new ChartConfig(this.casesChartOptions);
 
   public deathRateChart: IChartConfig = new ChartConfig(this.deadRateChartOptions);
 
-  public dailyCasesChart: IChartConfig = new ChartConfig();
+  public dailyCasesChart: IChartConfig = new ChartConfig(this.dailyCasesChartOptions);
 
   constructor(
     private covidDataService: CovidDataService

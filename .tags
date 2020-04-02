@@ -1,8 +1,3 @@
-.summary	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^.summary {$/;"	function	line:1
-ul	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^  ul {$/;"	function	line:2
-li	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^    li {$/;"	function	line:5
-&__key	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^  &__key {$/;"	function	line:11
-&__value	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^  &__value {$/;"	function	line:15
 app	/home/tecnual/proyectos/tecnual/covid/src/app/app.component.html	/^<app-header><\/app-header>$/;"	function	line:1
 div	/home/tecnual/proyectos/tecnual/covid/src/app/app.component.html	/^<div class="app">$/;"	function	line:2
 app	/home/tecnual/proyectos/tecnual/covid/src/app/app.component.html	/^  <app-home class="content"><\/app-home>$/;"	function	line:3
@@ -23,23 +18,6 @@ default-font-size	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_vari
 grid-width	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$grid-width: 114rem;$/;"	function	line:7
 gutter-vertical	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$gutter-vertical: 8rem;$/;"	function	line:8
 gutter-horizontal	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_variables.scss	/^$gutter-horizontal: 6rem;$/;"	function	line:9
-color-primary	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-primary: #703050;$/;"	function	line:1
-color-primary-light	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-primary-light: #702060;$/;"	function	line:2
-color-primary-dark	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-primary-dark: #250515;$/;"	function	line:3
-color-secondary	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-secondary: #15fcff;$/;"	function	line:5
-color-secondary-light	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-secondary-light: #35eeff;$/;"	function	line:6
-color-secondary-dark	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-secondary-dark: #145060;$/;"	function	line:7
-color-warn	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-warn: #e55525;$/;"	function	line:9
-color-warn-light	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-warn-light: #f08763;$/;"	function	line:10
-color-warn-dark	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-warn-dark: #963514;$/;"	function	line:11
-color-grey-light-1	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-light-1: #f7f7f7;$/;"	function	line:13
-color-grey-light-2	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-light-2: #ddd;$/;"	function	line:14
-color-grey-light-3	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-light-3: #bbb;$/;"	function	line:15
-color-grey-dark	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-dark: #777;$/;"	function	line:17
-color-grey-dark-2	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-dark-2: #999;$/;"	function	line:18
-color-grey-dark-3	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-dark-3: #333;$/;"	function	line:19
-color-white	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-white: #fff;$/;"	function	line:21
-color-black	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-black: #000;$/;"	function	line:22
 cvd-primary	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^$cvd-primary: ($/;"	function	line:2
 50 : #eee6ea	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    50 : #eee6ea,$/;"	function	line:3
 100 : #d4c1cb	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^    100 : #d4c1cb,$/;"	function	line:4
@@ -127,33 +105,12 @@ A100 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palet
 A200 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        A200 : #000000,$/;"	function	line:95
 A400 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        A400 : #000000,$/;"	function	line:96
 A700 : #000000	/home/tecnual/proyectos/tecnual/covid/src/scss/themes/covid/palette.scss	/^        A700 : #000000,$/;"	function	line:97
-covid-primary	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-primary: mat-palette($mat-indigo);$/;"	function	line:36
-covid-accent	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-accent: mat-palette($mat-pink, A200, A100, A400);$/;"	function	line:37
-covid-warn	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-warn: mat-palette($mat-red);$/;"	function	line:40
-covid-theme	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-theme: mat-light-theaccme($covid-primary, $covid-accent, $covid-warn);$/;"	function	line:43
 mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/line-chart/line-chart.component.html	/^<mat-card class="card">$/;"	function	line:1
-.chart	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_chart.scss	/^.chart {$/;"	function	line:1
-mat-card canvas	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_chart.scss	/^  mat-card canvas {$/;"	function	line:3
-mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^<mat-card class="card">$/;"	function	line:1
-mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^  <mat-card-header class="card__header">$/;"	function	line:2
-mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <mat-card-title class="heading-secondary card__header-title">Resumen<\/mat-card-title>$/;"	function	line:3
-mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^  <mat-card-content class="card__content">$/;"	function	line:5
-ul	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <ul class="summary__list">$/;"	function	line:6
-li	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^      <li class="heading-tertiary summary__list-item"><span class="summary__list-item--key">Afectados:<\/span><span class="summary__list-item--value">{{ totalData.cases}}<\/span><\/li>$/;"	function	line:7
-li	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^      <li class="summary__list-item"><span class="summary__list-item--key">Afectados últimas 24h:<\/span><span class="summary__list-item--value"> {{ totalData.latest24h}}<\/span><\/li>$/;"	function	line:8
-li	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^      <li class="summary__list-item"><span class="summary__list-item--key">Fallecidos:<\/span><span class="summary__list-item--value"> {{ totalData.deads}}<\/span><\/li>$/;"	function	line:9
-li	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^      <li class="summary__list-item"><span class="summary__list-item--key">Recuperados:<\/span><span class="summary__list-item--value"> {{ totalData.recovered}}<\/span><\/li>$/;"	function	line:10
-li	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^      <li class="summary__list-item"><span class="summary__list-item--key">Hospitalizados:<\/span><span class="summary__list-item--value"> {{ totalData.hospitalized}}<\/span><\/li>$/;"	function	line:11
-mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^  <mat-card-footer class="card__footer">$/;"	function	line:14
-span	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <span> {{ totalData.date}} {{ totalData.hour}}<\/span>$/;"	function	line:15
 mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/chart/chart.component.html	/^<mat-card class="card">$/;"	function	line:1
 mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/chart/chart.component.html	/^  <mat-card-header class="card__header">$/;"	function	line:2
 mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/chart/chart.component.html	/^    <mat-card-title class="heading-secondary card__header-title">{{ title }}<\/mat-card-title>$/;"	function	line:3
 mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/chart/chart.component.html	/^    <mat-card-subtitle>{{ subtitle }}<\/mat-card-subtitle>$/;"	function	line:4
 mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/chart/chart.component.html	/^  <mat-card-content class="card__content">$/;"	function	line:6
-app	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/home.component.html	/^<app-summary class="summary"><\/app-summary>$/;"	function	line:1
-app	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/home.component.html	/^<app-chart class="chart" [chartData]="totalDataChart" title="Casos confirmados"><\/app-chart>$/;"	function	line:2
-app	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/home.component.html	/^<app-chart class="chart" [chartData]="deathRateChart" title="Tasa de mortalidad" subtitle="Con respecto a:"><\/app-chart>$/;"	function	line:3
 *	/home/tecnual/proyectos/tecnual/covid/src/scss/base/_base.scss	/^*,$/;"	function	line:1
 *::after	/home/tecnual/proyectos/tecnual/covid/src/scss/base/_base.scss	/^*::after,$/;"	function	line:2
 *::before	/home/tecnual/proyectos/tecnual/covid/src/scss/base/_base.scss	/^*::before {$/;"	function	line:3
@@ -179,171 +136,347 @@ body	/home/tecnual/proyectos/tecnual/covid/src/scss/base/_typography.scss	/^body
 &-title	/home/tecnual/proyectos/tecnual/covid/src/scss/layout/_app.scss	/^    &-title {$/;"	function	line:18
 &__content	/home/tecnual/proyectos/tecnual/covid/src/scss/layout/_app.scss	/^  &__content {$/;"	function	line:23
 &__footer	/home/tecnual/proyectos/tecnual/covid/src/scss/layout/_app.scss	/^  &__footer {$/;"	function	line:26
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-10",$/;"	function	line:2
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:3
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 2117,$/;"	function	line:4
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 48,$/;"	function	line:5
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 183,$/;"	function	line:6
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 236,$/;"	function	line:7
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 270,$/;"	function	line:8
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 511$/;"	function	line:9
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-11",$/;"	function	line:12
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:13
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 2929,$/;"	function	line:14
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 84,$/;"	function	line:15
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 189,$/;"	function	line:16
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 399,$/;"	function	line:17
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 188,$/;"	function	line:18
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 812$/;"	function	line:19
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-12",$/;"	function	line:22
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:23
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 4130,$/;"	function	line:24
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 120,$/;"	function	line:25
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 193,$/;"	function	line:26
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 1858,$/;"	function	line:27
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 270,$/;"	function	line:28
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 1201$/;"	function	line:29
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-13",$/;"	function	line:32
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:33
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 5844,$/;"	function	line:34
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 134,$/;"	function	line:35
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 517,$/;"	function	line:36
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 2120,$/;"	function	line:37
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 296,$/;"	function	line:38
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 1714$/;"	function	line:39
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-14",$/;"	function	line:42
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:43
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 7698,$/;"	function	line:44
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 285,$/;"	function	line:45
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 517,$/;"	function	line:46
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 3096,$/;"	function	line:47
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 383,$/;"	function	line:48
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 1854$/;"	function	line:49
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-15",$/;"	function	line:52
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:53
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 9149,$/;"	function	line:54
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 306,$/;"	function	line:55
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 530,$/;"	function	line:56
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 3435,$/;"	function	line:57
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 416,$/;"	function	line:58
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 1451$/;"	function	line:59
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-16",$/;"	function	line:62
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:63
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 11178,$/;"	function	line:64
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 491,$/;"	function	line:65
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 1028,$/;"	function	line:66
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 5136,$/;"	function	line:67
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 563,$/;"	function	line:68
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 2029$/;"	function	line:69
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-17",$/;"	function	line:72
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:73
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 13716,$/;"	function	line:74
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 598,$/;"	function	line:75
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 1081,$/;"	function	line:76
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 5759,$/;"	function	line:77
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 774,$/;"	function	line:78
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 2538$/;"	function	line:79
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-18",$/;"	function	line:82
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:83
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 17147,$/;"	function	line:84
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 767,$/;"	function	line:85
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 1107,$/;"	function	line:86
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 7619,$/;"	function	line:87
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 939,$/;"	function	line:88
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 3431$/;"	function	line:89
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-19",$/;"	function	line:92
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:93
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 19980,$/;"	function	line:94
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 982,$/;"	function	line:95
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 1588,$/;"	function	line:96
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 10418,$/;"	function	line:97
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 1125,$/;"	function	line:98
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 2833$/;"	function	line:99
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-20",$/;"	function	line:102
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:103
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 24926,$/;"	function	line:104
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 1326,$/;"	function	line:105
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 2125,$/;"	function	line:106
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 13282,$/;"	function	line:107
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 1612,$/;"	function	line:108
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 4946$/;"	function	line:109
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-21",$/;"	function	line:112
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:113
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 28572,$/;"	function	line:114
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 1720,$/;"	function	line:115
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 2575,$/;"	function	line:116
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 15554,$/;"	function	line:117
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 1785,$/;"	function	line:118
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 3646$/;"	function	line:119
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-22",$/;"	function	line:122
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:123
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 33089,$/;"	function	line:124
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 2182,$/;"	function	line:125
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 3355,$/;"	function	line:126
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 18374,$/;"	function	line:127
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 2355,$/;"	function	line:128
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 4517$/;"	function	line:129
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-23",$/;"	function	line:132
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:133
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 39673,$/;"	function	line:134
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 2696,$/;"	function	line:135
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 3794,$/;"	function	line:136
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 22762,$/;"	function	line:137
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 2636,$/;"	function	line:138
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 6584$/;"	function	line:139
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-24",$/;"	function	line:142
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:143
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 47610,$/;"	function	line:144
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 3434,$/;"	function	line:145
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 5367,$/;"	function	line:146
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 26960,$/;"	function	line:147
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 3166,$/;"	function	line:148
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 7937$/;"	function	line:149
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-25",$/;"	function	line:152
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:153
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 56188,$/;"	function	line:154
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 4089,$/;"	function	line:155
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 7015,$/;"	function	line:156
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 31912,$/;"	function	line:157
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 3679,$/;"	function	line:158
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 8578$/;"	function	line:159
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-26",$/;"	function	line:162
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:163
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 64059,$/;"	function	line:164
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 4858,$/;"	function	line:165
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 9357,$/;"	function	line:166
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 36293,$/;"	function	line:167
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 4165,$/;"	function	line:168
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 7871$/;"	function	line:169
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-27",$/;"	function	line:172
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:173
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 72248,$/;"	function	line:174
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 5745,$/;"	function	line:175
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 12285,$/;"	function	line:176
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 40630,$/;"	function	line:177
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 4575,$/;"	function	line:178
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 8189$/;"	function	line:179
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-28",$/;"	function	line:182
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:183
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 78797,$/;"	function	line:184
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 6539,$/;"	function	line:185
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 14709,$/;"	function	line:186
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 43397,$/;"	function	line:187
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 4907,$/;"	function	line:188
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 6549$/;"	function	line:189
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-29",$/;"	function	line:192
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:193
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 85195,$/;"	function	line:194
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 7340,$/;"	function	line:195
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 16780,$/;"	function	line:196
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 46617,$/;"	function	line:197
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 5231,$/;"	function	line:198
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 6398$/;"	function	line:199
-date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-30",$/;"	function	line:202
-hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:203
-cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 94417,$/;"	function	line:204
-deads	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deads": 8189,$/;"	function	line:205
-recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 19259,$/;"	function	line:206
-hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 49243,$/;"	function	line:207
-UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 5607,$/;"	function	line:208
-latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 9222$/;"	function	line:209
+section	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/home.component.html	/^<section class="content__panel">$/;"	function	line:1
+app	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/home.component.html	/^  <app-summary class="summary-panel"><\/app-summary>$/;"	function	line:2
+section	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/home.component.html	/^<section class="content__panel">$/;"	function	line:4
+app	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/home.component.html	/^  <app-chart class="chart" [chartData]="totalDataChart" title="Casos confirmados"><\/app-chart>$/;"	function	line:5
+app	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/home.component.html	/^  <app-chart class="chart" [chartData]="deathRateChart" title="Tasa de mortalidad" subtitle="Con respecto a:"><\/app-chart>$/;"	function	line:6
+app	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/home.component.html	/^  <app-chart class="chart" [chartData]="dailyCasesChart" title="Casos diarios"><\/app-chart>$/;"	function	line:7
+covid-primary	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-primary: mat-palette($cvd-primary);$/;"	function	line:19
+covid-accent	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-accent: mat-palette($cvd-accent);$/;"	function	line:20
+covid-warn	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-warn: mat-palette($cvd-warn);$/;"	function	line:23
+covid-theme	/home/tecnual/proyectos/tecnual/covid/src/scss/main.scss	/^$covid-theme: mat-light-theme($covid-primary, $covid-accent, $covid-warn);$/;"	function	line:26
+color-primary	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-primary: mat-color($covid-primary);$/;"	function	line:1
+color-primary-light-1	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-primary-light-1: mat-color($covid-primary, 50);$/;"	function	line:2
+color-primary-light-2	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-primary-light-2: mat-color($covid-primary, 100);$/;"	function	line:3
+color-primary-light-3	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-primary-light-3: mat-color($covid-primary, 200);$/;"	function	line:4
+color-primary-dark	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-primary-dark: mat-color($covid-primary, 900);$/;"	function	line:5
+color-secondary	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-secondary: #15fcff;$/;"	function	line:7
+color-secondary-light	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-secondary-light: #35eeff;$/;"	function	line:8
+color-secondary-dark	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-secondary-dark: #145060;$/;"	function	line:9
+color-info	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-info: mat-color($covid-accent);$/;"	function	line:11
+color-info-light-1	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-info-light-1: mat-color($covid-accent, 50);$/;"	function	line:12
+color-info-light-2	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-info-light-2: mat-color($covid-accent, 100);$/;"	function	line:13
+color-info-light-3	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-info-light-3: mat-color($covid-accent, 200);$/;"	function	line:14
+color-info-dark	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-info-dark: mat-color($covid-accent, 900);$/;"	function	line:15
+color-warn	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-warn: mat-color($covid-warn);$/;"	function	line:17
+color-warn-light-1	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-warn-light-1: mat-color($covid-warn, 50);$/;"	function	line:18
+color-warn-light-2	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-warn-light-2: mat-color($covid-warn, 100);$/;"	function	line:19
+color-warn-light-3	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-warn-light-3: mat-color($covid-warn, 200);$/;"	function	line:20
+color-warn-dark	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-warn-dark: mat-color($covid-warn, 900);$/;"	function	line:21
+color-success	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-success: #4CAF50;$/;"	function	line:23
+color-success-light-1	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-success-light-1: #e7fbe8;$/;"	function	line:24
+color-success-light-2	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-success-light-2: #d9f5da;$/;"	function	line:25
+color-success-light-3	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-success-light-3: #C8E6C9;$/;"	function	line:26
+color-success-dark	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-success-dark: #388E3C;$/;"	function	line:27
+color-grey-light-1	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-light-1: #f7f7f7;$/;"	function	line:29
+color-grey-light-2	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-light-2: #ddd;$/;"	function	line:30
+color-grey-light-3	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-light-3: #bbb;$/;"	function	line:31
+color-grey-dark	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-dark: #777;$/;"	function	line:33
+color-grey-dark-2	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-dark-2: #999;$/;"	function	line:34
+color-grey-dark-3	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-grey-dark-3: #333;$/;"	function	line:35
+color-white	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-white: #fff;$/;"	function	line:37
+color-black	/home/tecnual/proyectos/tecnual/covid/src/scss/abstracts/_colors.scss	/^$color-black: #000;$/;"	function	line:38
+.sum__BORRAR__mary	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^.sum__BORRAR__mary {$/;"	function	line:1
+&__list	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^  &__list {$/;"	function	line:2
+&__list-item	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^  &__list-item {$/;"	function	line:6
+&:not(:last-child)	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^    &:not(:last-child) {$/;"	function	line:11
+&--key	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^    &--key {$/;"	function	line:15
+&--value	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^    &--value {$/;"	function	line:19
+.summary-panel	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^.summary-panel {$/;"	function	line:25
+.summary-card	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^.summary-card {$/;"	function	line:33
+&__title	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^  &__title {$/;"	function	line:45
+&--primary	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^    &--primary {$/;"	function	line:49
+&--warn	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^    &--warn {$/;"	function	line:53
+&--success	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^    &--success {$/;"	function	line:57
+&__subtitle	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^  &__subtitle {$/;"	function	line:62
+&--primary	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^    &--primary {$/;"	function	line:66
+&--success	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^    &--success {$/;"	function	line:70
+&--primary	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^  &--primary {$/;"	function	line:75
+&--info	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^  &--info {$/;"	function	line:80
+&--warn	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^  &--warn {$/;"	function	line:85
+&--success	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_summary.scss	/^  &--success {$/;"	function	line:90
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^  <mat-card-header class="card__header">$/;"	function	line:2
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <mat-card-title class="heading-secondary card__header-title">Resumen<\/mat-card-title>$/;"	function	line:3
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^  <mat-card-content class="card__content">$/;"	function	line:5
+ul	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <ul class="summary__list">$/;"	function	line:6
+li	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^      <li class="heading-tertiary summary__list-item"><span class="summary__list-item--key">Afectados:<\/span><span class="summary__list-item--value">{{ totalData.cases}}<\/span><\/li>$/;"	function	line:7
+li	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^      <li class="summary__list-item"><span class="summary__list-item--key">Afectados últimas 24h:<\/span><span class="summary__list-item--value"> {{ totalData.latest24h}}<\/span><\/li>$/;"	function	line:8
+li	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^      <li class="summary__list-item"><span class="summary__list-item--key">Fallecidos:<\/span><span class="summary__list-item--value"> {{ totalData.deaths}}<\/span><\/li>$/;"	function	line:9
+li	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^      <li class="summary__list-item"><span class="summary__list-item--key">Recuperados:<\/span><span class="summary__list-item--value"> {{ totalData.recovered}}<\/span><\/li>$/;"	function	line:10
+li	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^      <li class="summary__list-item"><span class="summary__list-item--key">Hospitalizados:<\/span><span class="summary__list-item--value"> {{ totalData.hospitalized}}<\/span><\/li>$/;"	function	line:11
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^  <mat-card-footer class="card__footer">$/;"	function	line:14
+span	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <span> {{ totalData.date}} {{ totalData.hour}}<\/span>$/;"	function	line:15
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^<mat-card class="summary-card summary-card--info">$/;"	function	line:19
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <mat-card-title class="summary-card__title">{{ totalData.latest24h}}<\/mat-card-title>$/;"	function	line:20
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <mat-card-subtitle class="summary-card__subtitle">Afectados últimas 24h<\/mat-card-subtitle>$/;"	function	line:21
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^<mat-card class="summary-card summary-card--warn">$/;"	function	line:24
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <mat-card-title class="summary-card__title summary-card__title--warn">{{ totalData.deaths}}<\/mat-card-title>$/;"	function	line:25
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <mat-card-subtitle class="summary-card__subtitle summary-card__subtitle--warn">Fallecidos<\/mat-card-subtitle>$/;"	function	line:26
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^<mat-card class="summary-card summary-card--primary">$/;"	function	line:29
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <mat-card-title class="summary-card__title summary-card__title--primary">{{ totalData.cases}}<\/mat-card-title>$/;"	function	line:30
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <mat-card-subtitle class="summary-card__subtitle summary-card__subtitle--primary">Afectados<\/mat-card-subtitle>$/;"	function	line:31
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^<mat-card class="summary-card summary-card--success">$/;"	function	line:34
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <mat-card-title class="summary-card__title summary-card__title--success">{{ totalData.recovered}}<\/mat-card-title>$/;"	function	line:35
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <mat-card-subtitle class="summary-card__subtitle summary-card__subtitle--success">Recuperados<\/mat-card-subtitle>$/;"	function	line:36
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^<mat-card class="summary-card">$/;"	function	line:39
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <mat-card-title class="summary-card__title">{{ totalData.hospitalized}}<\/mat-card-title>$/;"	function	line:40
+mat	/home/tecnual/proyectos/tecnual/covid/src/app/modules/home/summary/summary.component.html	/^    <mat-card-subtitle class="summary-card__subtitle">Hospitalizados<\/mat-card-subtitle>$/;"	function	line:41
+.chart	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_chart.scss	/^.chart {$/;"	function	line:1
+mat-card canvas	/home/tecnual/proyectos/tecnual/covid/src/scss/components/_chart.scss	/^  mat-card canvas {$/;"	function	line:3
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-02-29",$/;"	function	line:3
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:4
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 65,$/;"	function	line:5
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 0,$/;"	function	line:6
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 2,$/;"	function	line:7
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 0,$/;"	function	line:8
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 0,$/;"	function	line:9
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 48$/;"	function	line:10
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-01",$/;"	function	line:13
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:14
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 113,$/;"	function	line:15
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 0,$/;"	function	line:16
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 2,$/;"	function	line:17
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 0,$/;"	function	line:18
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 0,$/;"	function	line:19
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 48$/;"	function	line:20
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-02",$/;"	function	line:23
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:24
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 148,$/;"	function	line:25
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 0,$/;"	function	line:26
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 2,$/;"	function	line:27
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 0,$/;"	function	line:28
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 0,$/;"	function	line:29
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 35$/;"	function	line:30
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-03",$/;"	function	line:33
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:34
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 194,$/;"	function	line:35
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 0,$/;"	function	line:36
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 2,$/;"	function	line:37
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 0,$/;"	function	line:38
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 0,$/;"	function	line:39
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 46$/;"	function	line:40
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-04",$/;"	function	line:43
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:44
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 238,$/;"	function	line:45
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 0,$/;"	function	line:46
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 2,$/;"	function	line:47
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 0,$/;"	function	line:48
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 0,$/;"	function	line:49
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 44$/;"	function	line:50
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-05",$/;"	function	line:53
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:54
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 364,$/;"	function	line:55
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 0,$/;"	function	line:56
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 2,$/;"	function	line:57
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 0,$/;"	function	line:58
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 0,$/;"	function	line:59
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 126$/;"	function	line:60
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-06",$/;"	function	line:63
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:64
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 386,$/;"	function	line:65
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 0,$/;"	function	line:66
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 30,$/;"	function	line:67
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 0,$/;"	function	line:68
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 0,$/;"	function	line:69
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 22$/;"	function	line:70
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-07",$/;"	function	line:73
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:74
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 526,$/;"	function	line:75
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 0,$/;"	function	line:76
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 30,$/;"	function	line:77
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 0,$/;"	function	line:78
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 0,$/;"	function	line:79
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 140$/;"	function	line:80
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-08",$/;"	function	line:83
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:84
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 1006,$/;"	function	line:85
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 28,$/;"	function	line:86
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 32,$/;"	function	line:87
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 0,$/;"	function	line:88
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 74,$/;"	function	line:89
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 480$/;"	function	line:90
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-09",$/;"	function	line:93
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:94
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 1606,$/;"	function	line:95
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 36,$/;"	function	line:96
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 32,$/;"	function	line:97
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 0,$/;"	function	line:98
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 101,$/;"	function	line:99
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 600$/;"	function	line:100
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-10",$/;"	function	line:103
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:104
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 2117,$/;"	function	line:105
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 48,$/;"	function	line:106
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 183,$/;"	function	line:107
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 236,$/;"	function	line:108
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 270,$/;"	function	line:109
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 511$/;"	function	line:110
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-11",$/;"	function	line:113
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:114
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 2929,$/;"	function	line:115
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 84,$/;"	function	line:116
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 189,$/;"	function	line:117
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 399,$/;"	function	line:118
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 188,$/;"	function	line:119
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 812$/;"	function	line:120
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-12",$/;"	function	line:123
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:124
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 4130,$/;"	function	line:125
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 120,$/;"	function	line:126
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 193,$/;"	function	line:127
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 1858,$/;"	function	line:128
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 270,$/;"	function	line:129
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 1201$/;"	function	line:130
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-13",$/;"	function	line:133
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:134
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 5844,$/;"	function	line:135
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 134,$/;"	function	line:136
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 517,$/;"	function	line:137
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 2120,$/;"	function	line:138
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 296,$/;"	function	line:139
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 1714$/;"	function	line:140
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-14",$/;"	function	line:143
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:144
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 7698,$/;"	function	line:145
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 285,$/;"	function	line:146
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 517,$/;"	function	line:147
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 3096,$/;"	function	line:148
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 383,$/;"	function	line:149
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 1854$/;"	function	line:150
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-15",$/;"	function	line:153
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:154
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 9149,$/;"	function	line:155
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 306,$/;"	function	line:156
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 530,$/;"	function	line:157
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 3435,$/;"	function	line:158
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 416,$/;"	function	line:159
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 1451$/;"	function	line:160
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-16",$/;"	function	line:163
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:164
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 11178,$/;"	function	line:165
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 491,$/;"	function	line:166
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 1028,$/;"	function	line:167
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 5136,$/;"	function	line:168
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 563,$/;"	function	line:169
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 2029$/;"	function	line:170
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-17",$/;"	function	line:173
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:174
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 13716,$/;"	function	line:175
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 598,$/;"	function	line:176
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 1081,$/;"	function	line:177
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 5759,$/;"	function	line:178
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 774,$/;"	function	line:179
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 2538$/;"	function	line:180
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-18",$/;"	function	line:183
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:184
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 17147,$/;"	function	line:185
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 767,$/;"	function	line:186
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 1107,$/;"	function	line:187
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 7619,$/;"	function	line:188
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 939,$/;"	function	line:189
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 3431$/;"	function	line:190
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-19",$/;"	function	line:193
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:194
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 19980,$/;"	function	line:195
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 982,$/;"	function	line:196
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 1588,$/;"	function	line:197
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 10418,$/;"	function	line:198
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 1125,$/;"	function	line:199
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 2833$/;"	function	line:200
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-20",$/;"	function	line:203
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:204
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 24926,$/;"	function	line:205
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 1326,$/;"	function	line:206
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 2125,$/;"	function	line:207
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 13282,$/;"	function	line:208
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 1612,$/;"	function	line:209
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 4946$/;"	function	line:210
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-21",$/;"	function	line:213
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:214
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 28572,$/;"	function	line:215
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 1720,$/;"	function	line:216
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 2575,$/;"	function	line:217
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 15554,$/;"	function	line:218
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 1785,$/;"	function	line:219
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 3646$/;"	function	line:220
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-22",$/;"	function	line:223
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:224
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 33089,$/;"	function	line:225
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 2182,$/;"	function	line:226
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 3355,$/;"	function	line:227
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 18374,$/;"	function	line:228
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 2355,$/;"	function	line:229
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 4517$/;"	function	line:230
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-23",$/;"	function	line:233
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:234
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 39673,$/;"	function	line:235
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 2696,$/;"	function	line:236
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 3794,$/;"	function	line:237
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 22762,$/;"	function	line:238
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 2636,$/;"	function	line:239
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 6584$/;"	function	line:240
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-24",$/;"	function	line:243
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:244
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 47610,$/;"	function	line:245
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 3434,$/;"	function	line:246
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 5367,$/;"	function	line:247
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 26960,$/;"	function	line:248
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 3166,$/;"	function	line:249
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 7937$/;"	function	line:250
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-25",$/;"	function	line:253
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:254
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 56188,$/;"	function	line:255
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 4089,$/;"	function	line:256
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 7015,$/;"	function	line:257
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 31912,$/;"	function	line:258
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 3679,$/;"	function	line:259
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 8578$/;"	function	line:260
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-26",$/;"	function	line:263
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:264
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 64059,$/;"	function	line:265
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 4858,$/;"	function	line:266
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 9357,$/;"	function	line:267
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 36293,$/;"	function	line:268
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 4165,$/;"	function	line:269
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 7871$/;"	function	line:270
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-27",$/;"	function	line:273
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:274
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 72248,$/;"	function	line:275
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 5745,$/;"	function	line:276
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 12285,$/;"	function	line:277
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 40630,$/;"	function	line:278
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 4575,$/;"	function	line:279
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 8189$/;"	function	line:280
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-28",$/;"	function	line:283
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:284
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 78797,$/;"	function	line:285
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 6539,$/;"	function	line:286
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 14709,$/;"	function	line:287
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 43397,$/;"	function	line:288
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 4907,$/;"	function	line:289
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 6549$/;"	function	line:290
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-29",$/;"	function	line:293
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:294
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 85195,$/;"	function	line:295
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 7340,$/;"	function	line:296
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 16780,$/;"	function	line:297
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 46617,$/;"	function	line:298
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 5231,$/;"	function	line:299
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 6398$/;"	function	line:300
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-30",$/;"	function	line:303
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:304
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 94417,$/;"	function	line:305
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 8189,$/;"	function	line:306
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 19259,$/;"	function	line:307
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 49243,$/;"	function	line:308
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 5607,$/;"	function	line:309
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 9222$/;"	function	line:310
+date	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "date": "2020-03-31",$/;"	function	line:313
+hour	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hour": "20:00",$/;"	function	line:314
+cases	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "cases": 102136,$/;"	function	line:315
+deaths	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "deaths": 9053,$/;"	function	line:316
+recovered	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "recovered": 22647,$/;"	function	line:317
+hospitalized	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "hospitalized": 51418,$/;"	function	line:318
+UCI	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "UCI": 5607,$/;"	function	line:319
+latest24h	/home/tecnual/proyectos/tecnual/covid/src/assets/data/covid.json	/^    "latest24h": 7719$/;"	function	line:320
