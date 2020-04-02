@@ -1,15 +1,30 @@
 $color-primary: mat-color($covid-primary);
 $color-primary-light-1: mat-color($covid-primary, 50);
 $color-primary-light-2: mat-color($covid-primary, 100);
-$color-primary-dark: mat-color($covid-primary, 900);;
+$color-primary-light-3: mat-color($covid-primary, 200);
+$color-primary-dark: mat-color($covid-primary, 900);
 
 $color-secondary: #15fcff;
 $color-secondary-light: #35eeff;
 $color-secondary-dark: #145060;
 
+$color-info: mat-color($covid-accent);
+$color-info-light-1: mat-color($covid-accent, 50);
+$color-info-light-2: mat-color($covid-accent, 100);
+$color-info-light-3: mat-color($covid-accent, 200);
+$color-info-dark: mat-color($covid-accent, 900);
+
 $color-warn: mat-color($covid-warn);
-$color-warn-light: #f08763;
-$color-warn-dark: #963514;
+$color-warn-light-1: mat-color($covid-warn, 50);
+$color-warn-light-2: mat-color($covid-warn, 100);
+$color-warn-light-3: mat-color($covid-warn, 200);
+$color-warn-dark: mat-color($covid-warn, 900);
+
+$color-success: #4CAF50;
+$color-success-light-1: #e7fbe8;
+$color-success-light-2: #d9f5da;
+$color-success-light-3: #C8E6C9;
+$color-success-dark: #388E3C;
 
 $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #ddd;

@@ -1,4 +1,4 @@
-.summary {
+.sum__BORRAR__mary {
   &__list {
     list-style: none;
   }
@@ -21,5 +21,74 @@
     }
 
   }
+}
+.summary-panel {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
+
+}
+
+.summary-card {
+  display: flex !important;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 18rem;
+  height: 8rem;
+  font-weight: 900;
+  align-items: center;
+  justify-content: baseline;
+  border: 2px solid $color-primary-dark;
+  margin: .8rem;
+
+  &__title {
+    text-align: center;
+    color: $color-primary-dark;
+
+    &--primary {
+      color: $color-primary-light-1;
+    }
+
+    &--warn {
+      color: $color-warn-light-1;
+    }
+
+    &--success {
+      color: $color-success-light-1;
+    }
+  }
+
+  &__subtitle {
+    text-align: center;
+    color: $color-primary-dark;
+
+    &--primary {
+      color: $color-primary-light-2;
+    }
+
+    &--success {
+      color: $color-success-light-2;
+    }
+  }
+
+  &--primary {
+    border: 2px solid $color-primary-dark;
+    background-color: $color-primary;
+  }
+
+  &--info {
+    border: 2px solid $color-info-dark;
+    background-color: $color-info;
+  }
+
+  &--warn {
+    border: 2px solid $color-warn-dark;
+    background-color: $color-warn;
+  }
+
+  &--success {
+    border: 2px solid $color-success-dark;
+    background-color: $color-success;
+  }
 }

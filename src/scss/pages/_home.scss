@@ -1,9 +1,9 @@
 .content {
   background-color: mat-color($covid-primary, 50);
-  display:flex;
+  display: flex;
   flex: 1 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: stretch;
   align-content: stretch;
@@ -11,5 +11,9 @@
 
   @include respond(phone) {
     padding: 1rem 0;
+  }
+
+  &__panel {
+    
   }
 }
