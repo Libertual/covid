@@ -12,8 +12,8 @@ export class CovidDataService {
   private population = {
     spain: 47100396
   };
-  // private dataPath = 'assets/data/';
-  private dataPath = '/resources/';
+  private dataPath = 'assets/data/';
+  // private dataPath = '/resources/';
 
   private covidCCAAFile = 'serie_historica_acumulados.csv';
   private totalDataFile = 'data.csv';
