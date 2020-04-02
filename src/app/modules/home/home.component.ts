@@ -58,7 +58,7 @@ export class HomeComponent implements OnInit {
       xAxes: [{
         type: 'time',
         ticks: {
-          min: '2020-02-27',
+          min: '2020-02-20',
           maxTicksLimit: 10
         }
       }],
