@@ -1,42 +1,39 @@
-<!-- <mat-card class="card">
-  <mat-card-header class="card__header">
-    <mat-card-title class="heading-secondary card__header-title">Resumen</mat-card-title>
-  </mat-card-header>
-  <mat-card-content class="card__content">
-    <ul class="summary__list">
-      <li class="heading-tertiary summary__list-item"><span class="summary__list-item--key">Afectados:</span><span class="summary__list-item--value">{{ totalData.cases}}</span></li>
-      <li class="summary__list-item"><span class="summary__list-item--key">Afectados últimas 24h:</span><span class="summary__list-item--value"> {{ totalData.latest24h}}</span></li>
-      <li class="summary__list-item"><span class="summary__list-item--key">Fallecidos:</span><span class="summary__list-item--value"> {{ totalData.deaths}}</span></li>
-      <li class="summary__list-item"><span class="summary__list-item--key">Recuperados:</span><span class="summary__list-item--value"> {{ totalData.recovered}}</span></li>
-      <li class="summary__list-item"><span class="summary__list-item--key">Hospitalizados:</span><span class="summary__list-item--value"> {{ totalData.hospitalized}}</span></li>
-    </ul>
-  </mat-card-content>
-  <mat-card-footer class="card__footer">
-    <span> {{ totalData.date}} {{ totalData.hour}}</span>
-  </mat-card-footer>
-</mat-card> -->
-
 <mat-card class="summary-card summary-card--info">
-    <mat-card-title class="summary-card__title">{{totalData.latest24h | number: '1.0-0'}}</mat-card-title>
+    <mat-card-title class="summary-card__title">{{totalData.last24h | number: '1.0-0'}}</mat-card-title>
     <mat-card-subtitle class="summary-card__subtitle">Afectados últimas 24h</mat-card-subtitle>
+    <mat-card-content>
+      <app-mini-chart class="mini-chart" [chartData]="dailyCasesMiniChart"></app-mini-chart>
+    </mat-card-content>
 </mat-card>
 
 <mat-card class="summary-card summary-card--warn">
     <mat-card-title class="summary-card__title summary-card__title--warn">{{ totalData.deaths | number: '1.0-0'}}</mat-card-title>
     <mat-card-subtitle class="summary-card__subtitle summary-card__subtitle--warn">Fallecidos</mat-card-subtitle>
+    <mat-card-content>
+      <app-mini-chart class="mini-chart" [chartData]="deathRateMiniChart"></app-mini-chart>
+    </mat-card-content>
 </mat-card>
 
 <mat-card class="summary-card summary-card--primary">
     <mat-card-title class="summary-card__title summary-card__title--primary">{{ totalData.cases | number: '1.0-0'}}</mat-card-title>
     <mat-card-subtitle class="summary-card__subtitle summary-card__subtitle--primary">Afectados</mat-card-subtitle>
+    <mat-card-content>
+      <app-mini-chart class="mini-chart" [chartData]="casesMiniChart"></app-mini-chart>
+    </mat-card-content>
 </mat-card>
 
 <mat-card class="summary-card summary-card--success">
     <mat-card-title class="summary-card__title summary-card__title--success">{{ totalData.recovered | number: '1.0-0'}}</mat-card-title>
     <mat-card-subtitle class="summary-card__subtitle summary-card__subtitle--success">Recuperados</mat-card-subtitle>
+    <mat-card-content>
+      <app-mini-chart class="mini-chart" [chartData]="recoveredMiniChart"></app-mini-chart>
+    </mat-card-content>
 </mat-card>
 
 <mat-card class="summary-card">
     <mat-card-title class="summary-card__title">{{ totalData.hospitalized | number: '1.0-0'}}</mat-card-title>
     <mat-card-subtitle class="summary-card__subtitle">Hospitalizados</mat-card-subtitle>
+    <mat-card-content>
+      <app-mini-chart class="mini-chart" [chartData]="hospitalizedMiniChart"></app-mini-chart>
+    </mat-card-content>
 </mat-card>

@@ -1,52 +1,66 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import { ISummary } from '../../modules/home/summary/summary.interface';
+import { CovidDataDTO } from '../datamodel/dto/covid-data.dto';
 import { IChartConfig } from '../../modules/home/chart/chart-config.interface';
+
+import { ReplaySubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 
 export class CovidDataService {
+  private covidData = new ReplaySubject<CovidDataDTO>(null);
   private population = {
     spain: 47100396
   };
+
   private dataPath = 'assets/data/';
-  // private dataPath = '/resources/';
 
-  private covidCCAAFile = 'serie_historica_acumulados.csv';
-  private totalDataFile = 'data.csv';
-  private totalData = 'assets/data/' + 'covid.json';
-  // private ccaaFile = 'ccaa.csv';
-  // private covidUrl = '/resources/serie_historica_acumulados.csv';
+  private totalDataFile = 'covid.json';
 
-  constructor(private http: HttpClient) { }
-
-  public getTotalData() {
-    return this.http.get(this.totalData, {responseType: 'json'});
+  constructor(private http: HttpClient) {
+  this.getCovidData().subscribe(
+      (res) => {
+        this.covidData.next(res as CovidDataDTO);
+      }
+    );
   }
 
-  public getTotalDataFile() {
-    return this.http.get(this.dataPath + this.totalDataFile, {responseType: 'text'});
+  public getResponse(): ReplaySubject<any> {
+    return this.covidData;
   }
-
   public getCovidData() {
-    return this.http.get(this.dataPath + this.covidCCAAFile, {responseType: 'text'});
+    return this.http.get(this.dataPath + this.totalDataFile, {responseType: 'json'});
+  }
+
+  public parseTotalData(data: any): IChartConfig {
+    const chartData: IChartConfig = {
+      data: { datasets: [],
+              labels: []
+            }
+      };
+    data.map((item: any) => {
+      chartData.data.labels.push(item.date);
+
+      if (!chartData.data.datasets[0]) { chartData.data.datasets[0] = {data: [], label: 'Afectados'}; }
+      chartData.data.datasets[0].data.push(item.cases);
+
+      if (!chartData.data.datasets[1]) { chartData.data.datasets[1] = {data: [], label: 'Hospitalizados'}; }
+      chartData.data.datasets[1].data.push(item.hospitalized);
+
+      if (!chartData.data.datasets[2]) { chartData.data.datasets[2] = {data: [], label: 'UCI'}; }
+      chartData.data.datasets[2].data.push(item.uci);
+
+      if (!chartData.data.datasets[3]) { chartData.data.datasets[3] = {data: [], label: 'Fallecidos'}; }
+      chartData.data.datasets[3].data.push(item.deaths);
+    });
+    return chartData;
   }
 
   public parseTotalDataFile(data: any) {
-    const lines = data.split('\n');
-    const totals = lines[1].split(',');
-    const totalData: ISummary = {
-      date: totals[0],
-      hour: totals[1],
-      cases: totals[2],
-      deaths: totals[3],
-      recovered: totals[4],
-      hospitalized: totals[5],
-      latest24h: totals[6]
-    };
+    const totalData: CovidDataDTO = data[data.length - 1];
     return totalData;
   }
 
@@ -130,7 +144,7 @@ export class CovidDataService {
     return chartData;
   }
 
-  public parseDailyCasesData(data: any): IChartConfig {
+  public parseCasesDataByField(data: any, field: string): IChartConfig {
     const chartData: IChartConfig = {
       data: { datasets: [],
               labels: []
@@ -141,10 +155,9 @@ export class CovidDataService {
     chartData.data.labels.push(item.date);
 
     if (!chartData.data.datasets[0]) { chartData.data.datasets[0] = {data: [], label: 'Nuevos casos en 24h'}; }
-    chartData.data.datasets[0].data.push(item.latest24h);
+    chartData.data.datasets[0].data.push(item[field]);
     });
 
     return chartData;
   }
-
 }

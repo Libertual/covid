@@ -7,12 +7,14 @@ import { ChartsModule } from 'ng2-charts';
 import { HomeComponent } from './home.component';
 import { SummaryComponent } from './summary/summary.component';
 import { ChartComponent } from './chart/chart.component';
+import { MiniChartComponent } from './mini-chart/mini-chart.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     SummaryComponent,
-    ChartComponent
+    ChartComponent,
+    MiniChartComponent
   ],
   imports: [
     CommonModule,
@@ -22,8 +24,10 @@ import { ChartComponent } from './chart/chart.component';
   exports: [
     HomeComponent,
     SummaryComponent,
-    ChartComponent
-  ]
+    ChartComponent,
+    MiniChartComponent
+  ],
+  providers: []
 })
 
 export class HomeModule { }
