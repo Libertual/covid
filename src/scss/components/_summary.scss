@@ -8,13 +8,33 @@
   display: flex !important;
   flex-direction: column;
   flex-wrap: nowrap;
-  width: 18rem;
-  height: 8rem;
+  width: 16rem;
+  height: 16rem;
   font-weight: 500;
   align-items: center;
   background-image: linear-gradient(to right bottom, $color-white, $color-primary-light-2);
   border: 2px solid $color-primary-dark-2;
   margin: .8rem;
+
+  &--primary {
+    background-image: linear-gradient(to right bottom, $color-primary, $color-primary-dark-2);
+    border: 2px solid $color-primary-dark-2;
+  }
+
+  &--info {
+    background-image: linear-gradient(to right bottom, $color-info, $color-info-dark-1);
+    border: 2px solid $color-info-dark-2;
+  }
+
+  &--warn {
+    background-image: linear-gradient(to right bottom, $color-warn, $color-warn-dark-2);
+    border: 2px solid $color-warn-dark-2;
+  }
+
+  &--success {
+    background-image: linear-gradient(to right bottom, $color-success, $color-success-dark-1);
+    border: 2px solid $color-success-dark-2;
+  }
 
   &__title {
     font-weight: 700 !important;
@@ -36,6 +56,7 @@
   }
 
   &__subtitle {
+    font-size: 1rem;
     text-align: center;
     color: $color-primary-dark-3;
 
@@ -50,25 +71,5 @@
     &--warn {
       color: $color-warn-light-2;
     }
-  }
-
-  &--primary {
-    background-image: linear-gradient(to right bottom, $color-primary, $color-primary-dark-2);
-    border: 2px solid $color-primary-dark-2;
-  }
-
-  &--info {
-    background-image: linear-gradient(to right bottom, $color-info, $color-info-dark-1);
-    border: 2px solid $color-info-dark-1;
-  }
-
-  &--warn {
-    background-image: linear-gradient(to right bottom, $color-warn, $color-warn-dark-2);
-    border: 2px solid $color-warn-dark-2;
-  }
-
-  &--success {
-    background-image: linear-gradient(to right bottom, $color-success, $color-success-dark-2);
-    border: 2px solid $color-success-dark-2;
   }
 }

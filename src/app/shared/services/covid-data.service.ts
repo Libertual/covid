@@ -144,7 +144,7 @@ export class CovidDataService {
     return chartData;
   }
 
-  public parseDailyCasesData(data: any): IChartConfig {
+  public parseCasesDataByField(data: any, field: string): IChartConfig {
     const chartData: IChartConfig = {
       data: { datasets: [],
               labels: []
@@ -155,7 +155,7 @@ export class CovidDataService {
     chartData.data.labels.push(item.date);
 
     if (!chartData.data.datasets[0]) { chartData.data.datasets[0] = {data: [], label: 'Nuevos casos en 24h'}; }
-    chartData.data.datasets[0].data.push(item.latest24h);
+    chartData.data.datasets[0].data.push(item[field]);
     });
 
     return chartData;

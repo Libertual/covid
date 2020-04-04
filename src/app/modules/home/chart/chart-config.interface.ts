@@ -2,7 +2,7 @@ import { ChartData, ChartOptions, ChartType } from 'chart.js';
 import { Label, Color } from 'ng2-charts';
 
 export interface IChartConfig {
-  data: ChartData;
+  data?: ChartData;
   labels?: Label[];
   options?: ChartOptions;
   colors?: Color[];

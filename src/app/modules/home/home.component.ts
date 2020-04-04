@@ -71,13 +71,17 @@ export class HomeComponent implements OnInit {
     }
   };
 
-  public totalDataChart: IChartConfig = new ChartConfig(this.casesChartOptions);
+  public totalDataChart = new ChartConfig();
 
-  public deathRateChart: IChartConfig = new ChartConfig(this.deadRateChartOptions);
+  public deathRateChart = new ChartConfig();
 
-  public dailyCasesChart: IChartConfig = new ChartConfig(this.dailyCasesChartOptions);
+  public dailyCasesChart = new ChartConfig();
 
-  constructor(private covidDataService: CovidDataService) {}
+  constructor(private covidDataService: CovidDataService) {
+    this.totalDataChart.setOptions(this.casesChartOptions);
+    this.deathRateChart.setOptions(this.deadRateChartOptions);
+    this.dailyCasesChart.setOptions(this.dailyCasesChartOptions);
+  }
 
   public ngOnInit(): void {
     this.covidDataService.getResponse()
@@ -85,7 +89,7 @@ export class HomeComponent implements OnInit {
       (data) => {
         this.totalDataChart = {...this.totalDataChart, ...this.covidDataService.parseTotalData(data)};
         this.deathRateChart = { ...this.deathRateChart, ...this.covidDataService.parseDeathRateData(data) };
-        this.dailyCasesChart = {...this.dailyCasesChart, ...this.covidDataService.parseDailyCasesData(data) };
+        this.dailyCasesChart = {...this.dailyCasesChart, ...this.covidDataService.parseCasesDataByField(data, 'last24h') };
       }
     );
   }
