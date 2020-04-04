@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
-import { CovidDataService } from '../../../share/services/covid-data.service';
-import { ISummary } from './summary.interface';
+import { CovidDataService } from '../../../shared/services/covid-data.service';
+import { CovidDataDTO } from '../../../shared/datamodel/dto/covid-data.dto';
 
 @Component({
   selector: 'app-summary',
   templateUrl: './summary.component.html'
 })
 export class SummaryComponent implements OnInit {
-  public totalData: ISummary = {} as any;
+  public totalData: CovidDataDTO = {} as any;
 
   constructor( private covidDataService: CovidDataService ) {
   }

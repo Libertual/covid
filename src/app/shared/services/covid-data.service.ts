@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import { ISummary } from '../../modules/home/summary/summary.interface';
+import { CovidDataDTO } from '../datamodel/dto/covid-data.dto';
 import { IChartConfig } from '../../modules/home/chart/chart-config.interface';
 
 import { ReplaySubject } from 'rxjs';
@@ -11,7 +11,7 @@ import { ReplaySubject } from 'rxjs';
 })
 
 export class CovidDataService {
-  private covidData = new ReplaySubject<any>(1);
+  private covidData = new ReplaySubject<CovidDataDTO>(null);
   private population = {
     spain: 47100396
   };
@@ -23,7 +23,7 @@ export class CovidDataService {
   constructor(private http: HttpClient) {
   this.getCovidData().subscribe(
       (res) => {
-        this.covidData.next(res);
+        this.covidData.next(res as CovidDataDTO);
       }
     );
   }
@@ -60,7 +60,7 @@ export class CovidDataService {
   }
 
   public parseTotalDataFile(data: any) {
-    const totalData: ISummary = data[data.length - 1];
+    const totalData: CovidDataDTO = data[data.length - 1];
     return totalData;
   }
 

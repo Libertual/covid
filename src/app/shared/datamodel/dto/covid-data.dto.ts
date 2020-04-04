@@ -1,4 +1,4 @@
-export interface ISummary {
+export interface CovidDataDTO {
   date: string;
   hour: string;
   cases: number;

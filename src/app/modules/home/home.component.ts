@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { ChartOptions} from 'chart.js';
 
-import { CovidDataService } from '../../share/services/covid-data.service';
+import { CovidDataService } from '../../shared/services/covid-data.service';
 import { ChartConfig } from './chart/chart-config.class';
 
 import { IChartConfig } from './chart/chart-config.interface';
