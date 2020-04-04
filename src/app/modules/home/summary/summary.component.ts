@@ -10,10 +10,11 @@ import { ISummary } from './summary.interface';
 export class SummaryComponent implements OnInit {
   public totalData: ISummary = {} as any;
 
-  constructor( private covidDataService: CovidDataService ) { }
+  constructor( private covidDataService: CovidDataService ) {
+  }
 
   public ngOnInit(): void {
-    this.covidDataService.getTotalDataFile()
+    this.covidDataService.getResponse()
             .subscribe((data) => this.totalData = this.covidDataService.parseTotalDataFile(data));
   }
 }

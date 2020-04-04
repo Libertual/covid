@@ -13,7 +13,7 @@ import { IChartConfig } from './chart/chart-config.interface';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
+  public res: string;
   public deadRateChartOptions: ChartOptions = {
     responsive: true,
     scales: {
@@ -77,25 +77,16 @@ export class HomeComponent implements OnInit {
 
   public dailyCasesChart: IChartConfig = new ChartConfig(this.dailyCasesChartOptions);
 
-  constructor(
-    private covidDataService: CovidDataService
-  ) { }
+  constructor(private covidDataService: CovidDataService) {}
 
   public ngOnInit(): void {
-
-    this.covidDataService.getTotalData()
-        .subscribe((data) => {
-          this.deathRateChart = { ...this.deathRateChart, ...this.covidDataService.parseDeathRateData(data) };
-        });
-
-    this.covidDataService.getCovidData()
-        .subscribe((data) => {
-            this.totalDataChart = {...this.totalDataChart, ...this.covidDataService.extractData(data)};
-        });
-    this.covidDataService.getTotalData()
-        .subscribe((data) => {
-            this.dailyCasesChart = {...this.dailyCasesChart, ...this.covidDataService.parseDailyCasesData(data)};
-        });
-
+    this.covidDataService.getResponse()
+    .subscribe(
+      (data) => {
+        this.totalDataChart = {...this.totalDataChart, ...this.covidDataService.parseTotalData(data)};
+        this.deathRateChart = { ...this.deathRateChart, ...this.covidDataService.parseDeathRateData(data) };
+        this.dailyCasesChart = {...this.dailyCasesChart, ...this.covidDataService.parseDailyCasesData(data) };
+      }
+    );
   }
 }

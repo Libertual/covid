@@ -23,7 +23,8 @@ import { ChartComponent } from './chart/chart.component';
     HomeComponent,
     SummaryComponent,
     ChartComponent
-  ]
+  ],
+  providers: []
 })
 
 export class HomeModule { }
