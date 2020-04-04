@@ -5,8 +5,8 @@
     "deaths": 0,
     "recovered": 2,
     "hospitalized": 0,
-    "UCI": 0,
-    "latest24h": 0
+    "uci": 0,
+    "last24h": 0
   },
   {
     "date": "2020-02-21",
@@ -15,8 +15,8 @@
     "deaths": 0,
     "recovered": 2,
     "hospitalized": 0,
-    "UCI": 0,
-    "latest24h": 0
+    "uci": 0,
+    "last24h": 0
   },
   {
     "date": "2020-02-22",
@@ -25,8 +25,8 @@
     "deaths": 0,
     "recovered": 2,
     "hospitalized": 0,
-    "UCI": 0,
-    "latest24h": 0
+    "uci": 0,
+    "last24h": 0
   },
   {
     "date": "2020-02-23",
@@ -35,8 +35,8 @@
     "deaths": 0,
     "recovered": 2,
     "hospitalized": 0,
-    "UCI": 0,
-    "latest24h": 0
+    "uci": 0,
+    "last24h": 0
   },
   {
     "date": "2020-02-24",
@@ -45,8 +45,8 @@
     "deaths": 0,
     "recovered": 2,
     "hospitalized": 0,
-    "UCI": 0,
-    "latest24h": 1
+    "uci": 0,
+    "last24h": 1
   },
   {
     "date": "2020-02-25",
@@ -55,8 +55,8 @@
     "deaths": 0,
     "recovered": 2,
     "hospitalized": 0,
-    "UCI": 0,
-    "latest24h": 7
+    "uci": 0,
+    "last24h": 7
   },
   {
     "date": "2020-02-26",
@@ -65,8 +65,8 @@
     "deaths": 0,
     "recovered": 2,
     "hospitalized": 0,
-    "UCI": 0,
-    "latest24h": 6
+    "uci": 0,
+    "last24h": 6
   },
   {
     "date": "2020-02-27",
@@ -75,8 +75,8 @@
     "deaths": 0,
     "recovered": 2,
     "hospitalized": 0,
-    "UCI": 0,
-    "latest24h": 13
+    "uci": 0,
+    "last24h": 13
   },
   {
     "date": "2020-02-28",
@@ -85,8 +85,8 @@
     "deaths": 0,
     "recovered": 2,
     "hospitalized": 0,
-    "UCI": 0,
-    "latest24h": 14
+    "uci": 0,
+    "last24h": 14
   },
   {
     "date": "2020-02-29",
@@ -95,8 +95,8 @@
     "deaths": 0,
     "recovered": 2,
     "hospitalized": 0,
-    "UCI": 0,
-    "latest24h": 48
+    "uci": 0,
+    "last24h": 48
   },
   {
     "date": "2020-03-01",
@@ -105,8 +105,8 @@
     "deaths": 0,
     "recovered": 2,
     "hospitalized": 0,
-    "UCI": 0,
-    "latest24h": 48
+    "uci": 0,
+    "last24h": 48
   },
   {
     "date": "2020-03-02",
@@ -115,8 +115,8 @@
     "deaths": 0,
     "recovered": 2,
     "hospitalized": 0,
-    "UCI": 0,
-    "latest24h": 35
+    "uci": 0,
+    "last24h": 35
   },
   {
     "date": "2020-03-03",
@@ -125,8 +125,8 @@
     "deaths": 0,
     "recovered": 2,
     "hospitalized": 0,
-    "UCI": 0,
-    "latest24h": 46
+    "uci": 0,
+    "last24h": 46
   },
   {
     "date": "2020-03-04",
@@ -135,8 +135,8 @@
     "deaths": 0,
     "recovered": 2,
     "hospitalized": 0,
-    "UCI": 0,
-    "latest24h": 44
+    "uci": 0,
+    "last24h": 44
   },
   {
     "date": "2020-03-05",
@@ -145,8 +145,8 @@
     "deaths": 0,
     "recovered": 2,
     "hospitalized": 0,
-    "UCI": 0,
-    "latest24h": 126
+    "uci": 0,
+    "last24h": 126
   },
   {
     "date": "2020-03-06",
@@ -155,8 +155,8 @@
     "deaths": 0,
     "recovered": 30,
     "hospitalized": 0,
-    "UCI": 0,
-    "latest24h": 22
+    "uci": 0,
+    "last24h": 22
   },
   {
     "date": "2020-03-07",
@@ -165,8 +165,8 @@
     "deaths": 0,
     "recovered": 30,
     "hospitalized": 0,
-    "UCI": 0,
-    "latest24h": 140
+    "uci": 0,
+    "last24h": 140
   },
   {
     "date": "2020-03-08",
@@ -175,8 +175,8 @@
     "deaths": 28,
     "recovered": 32,
     "hospitalized": 0,
-    "UCI": 74,
-    "latest24h": 480
+    "uci": 74,
+    "last24h": 480
   },
   {
     "date": "2020-03-09",
@@ -185,8 +185,8 @@
     "deaths": 36,
     "recovered": 32,
     "hospitalized": 0,
-    "UCI": 101,
-    "latest24h": 600
+    "uci": 101,
+    "last24h": 600
   },
   {
     "date": "2020-03-10",
@@ -195,8 +195,8 @@
     "deaths": 48,
     "recovered": 183,
     "hospitalized": 236,
-    "UCI": 270,
-    "latest24h": 511
+    "uci": 142,
+    "last24h": 511
   },
   {
     "date": "2020-03-11",
@@ -205,8 +205,8 @@
     "deaths": 84,
     "recovered": 189,
     "hospitalized": 399,
-    "UCI": 188,
-    "latest24h": 812
+    "uci": 188,
+    "last24h": 812
   },
   {
     "date": "2020-03-12",
@@ -215,8 +215,8 @@
     "deaths": 120,
     "recovered": 193,
     "hospitalized": 1858,
-    "UCI": 270,
-    "latest24h": 1201
+    "uci": 270,
+    "last24h": 1201
   },
   {
     "date": "2020-03-13",
@@ -225,8 +225,8 @@
     "deaths": 134,
     "recovered": 517,
     "hospitalized": 2120,
-    "UCI": 296,
-    "latest24h": 1714
+    "uci": 296,
+    "last24h": 1714
   },
   {
     "date": "2020-03-14",
@@ -235,8 +235,8 @@
     "deaths": 285,
     "recovered": 517,
     "hospitalized": 3096,
-    "UCI": 383,
-    "latest24h": 1854
+    "uci": 383,
+    "last24h": 1854
   },
   {
     "date": "2020-03-15",
@@ -245,8 +245,8 @@
     "deaths": 306,
     "recovered": 530,
     "hospitalized": 3435,
-    "UCI": 416,
-    "latest24h": 1451
+    "uci": 416,
+    "last24h": 1451
   },
   {
     "date": "2020-03-16",
@@ -255,8 +255,8 @@
     "deaths": 491,
     "recovered": 1028,
     "hospitalized": 5136,
-    "UCI": 563,
-    "latest24h": 2029
+    "uci": 563,
+    "last24h": 2029
   },
   {
     "date": "2020-03-17",
@@ -265,8 +265,8 @@
     "deaths": 598,
     "recovered": 1081,
     "hospitalized": 5759,
-    "UCI": 774,
-    "latest24h": 2538
+    "uci": 774,
+    "last24h": 2538
   },
   {
     "date": "2020-03-18",
@@ -275,8 +275,8 @@
     "deaths": 767,
     "recovered": 1107,
     "hospitalized": 7619,
-    "UCI": 939,
-    "latest24h": 3431
+    "uci": 939,
+    "last24h": 3431
   },
   {
     "date": "2020-03-19",
@@ -285,8 +285,8 @@
     "deaths": 982,
     "recovered": 1588,
     "hospitalized": 10418,
-    "UCI": 1125,
-    "latest24h": 2833
+    "uci": 1125,
+    "last24h": 2833
   },
   {
     "date": "2020-03-20",
@@ -295,8 +295,8 @@
     "deaths": 1326,
     "recovered": 2125,
     "hospitalized": 13282,
-    "UCI": 1612,
-    "latest24h": 4946
+    "uci": 1612,
+    "last24h": 4946
   },
   {
     "date": "2020-03-21",
@@ -305,8 +305,8 @@
     "deaths": 1720,
     "recovered": 2575,
     "hospitalized": 15554,
-    "UCI": 1785,
-    "latest24h": 3646
+    "uci": 1785,
+    "last24h": 3646
   },
   {
     "date": "2020-03-22",
@@ -315,8 +315,8 @@
     "deaths": 2182,
     "recovered": 3355,
     "hospitalized": 18374,
-    "UCI": 2355,
-    "latest24h": 4517
+    "uci": 2355,
+    "last24h": 4517
   },
   {
     "date": "2020-03-23",
@@ -325,8 +325,8 @@
     "deaths": 2696,
     "recovered": 3794,
     "hospitalized": 22762,
-    "UCI": 2636,
-    "latest24h": 6584
+    "uci": 2636,
+    "last24h": 6584
   },
   {
     "date": "2020-03-24",
@@ -335,8 +335,8 @@
     "deaths": 3434,
     "recovered": 5367,
     "hospitalized": 26960,
-    "UCI": 3166,
-    "latest24h": 7937
+    "uci": 3166,
+    "last24h": 7937
   },
   {
     "date": "2020-03-25",
@@ -345,8 +345,8 @@
     "deaths": 4089,
     "recovered": 7015,
     "hospitalized": 31912,
-    "UCI": 3679,
-    "latest24h": 8578
+    "uci": 3679,
+    "last24h": 8578
   },
   {
     "date": "2020-03-26",
@@ -355,8 +355,8 @@
     "deaths": 4858,
     "recovered": 9357,
     "hospitalized": 36293,
-    "UCI": 4165,
-    "latest24h": 7871
+    "uci": 4165,
+    "last24h": 7871
   },
   {
     "date": "2020-03-27",
@@ -365,8 +365,8 @@
     "deaths": 5745,
     "recovered": 12285,
     "hospitalized": 40630,
-    "UCI": 4575,
-    "latest24h": 8189
+    "uci": 4575,
+    "last24h": 8189
   },
   {
     "date": "2020-03-28",
@@ -375,8 +375,8 @@
     "deaths": 6539,
     "recovered": 14709,
     "hospitalized": 43397,
-    "UCI": 4907,
-    "latest24h": 6549
+    "uci": 4907,
+    "last24h": 6549
   },
   {
     "date": "2020-03-29",
@@ -385,8 +385,8 @@
     "deaths": 7340,
     "recovered": 16780,
     "hospitalized": 46617,
-    "UCI": 5231,
-    "latest24h": 6398
+    "uci": 5231,
+    "last24h": 6398
   },
   {
     "date": "2020-03-30",
@@ -395,8 +395,8 @@
     "deaths": 8189,
     "recovered": 19259,
     "hospitalized": 49243,
-    "UCI": 5607,
-    "latest24h": 9222
+    "uci": 5607,
+    "last24h": 9222
   },
   {
     "date": "2020-03-31",
@@ -405,8 +405,8 @@
     "deaths": 9053,
     "recovered": 22647,
     "hospitalized": 51418,
-    "UCI": 5607,
-    "latest24h": 7719
+    "uci": 5872,
+    "last24h": 7719
   },
   {
     "date": "2020-04-01",
@@ -415,7 +415,27 @@
     "deaths": 10003,
     "recovered": 26743,
     "hospitalized": 54113,
-    "UCI": 6092,
-    "latest24h": 8102
+    "uci": 6092,
+    "last24h": 8102
+  },
+  {
+    "date": "2020-04-02",
+    "hour": "20:00",
+    "cases": 117710,
+    "deaths": 10935,
+    "recovered": 30513,
+    "hospitalized": 56637,
+    "uci": 6092,
+    "last24h": 7472
+  },
+  {
+    "date": "2020-04-03",
+    "hour": "20:00",
+    "cases": 124736,
+    "deaths": 11744,
+    "recovered": 34219,
+    "hospitalized": 57612,
+    "uci": 6092,
+    "last24h": 7026
   }
 ]
