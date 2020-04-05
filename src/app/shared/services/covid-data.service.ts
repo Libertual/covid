@@ -11,7 +11,8 @@ import { ReplaySubject } from 'rxjs';
 })
 
 export class CovidDataService {
-  private covidData = new ReplaySubject<CovidDataDTO>(null);
+  private totalCovidData = new ReplaySubject<CovidDataDTO>(null);
+  private covidDailyData = new ReplaySubject<any>(null);
   private population = {
     spain: 47100396
   };
@@ -22,15 +23,21 @@ export class CovidDataService {
 
   constructor(private http: HttpClient) {
   this.getCovidData().subscribe(
-      (res) => {
-        this.covidData.next(res as CovidDataDTO);
+      (res: CovidDataDTO) => {
+        this.covidDailyData.next(this.dailyCasesData(res));
+        this.totalCovidData.next(res);
       }
     );
   }
 
-  public getResponse(): ReplaySubject<any> {
-    return this.covidData;
+  public getTotalCovidData(): ReplaySubject<any> {
+    return this.totalCovidData;
   }
+
+  public getDailyCovidData(): ReplaySubject<any> {
+    return this.covidDailyData;
+  }
+
   public getCovidData() {
     return this.http.get(this.dataPath + this.totalDataFile, {responseType: 'json'});
   }
@@ -61,6 +68,7 @@ export class CovidDataService {
 
   public parseTotalDataFile(data: any) {
     const totalData: CovidDataDTO = data[data.length - 1];
+    totalData.deathsLast24h = data[data.length - 1].deaths - data[data.length - 2].deaths;
     return totalData;
   }
 
@@ -151,13 +159,54 @@ export class CovidDataService {
             }
       };
 
-    data.map((item: any) => {
+    data.map((item: any, index: number) => {
     chartData.data.labels.push(item.date);
-
-    if (!chartData.data.datasets[0]) { chartData.data.datasets[0] = {data: [], label: 'Nuevos casos en 24h'}; }
-    chartData.data.datasets[0].data.push(item[field]);
+    if (field !== 'deaths24') {
+      if (!chartData.data.datasets[0]) { chartData.data.datasets[0] = {data: [], label: 'Nuevos casos en 24h'}; }
+      chartData.data.datasets[0].data.push(item[field]);
+    } else {
+      if (!chartData.data.datasets[0]) { chartData.data.datasets[0] = {data: [], label: 'Fallecidos en 24h'}; }
+      let previous = 0;
+      index === 0 ? previous = index : previous = index - 1;
+      const deaths24 = item.deaths - data[previous].deaths;
+      chartData.data.datasets[0].data.push(deaths24);
+    }
     });
 
     return chartData;
+  }
+
+  public dailyCasesChartDataByFields(data: any, fields: any[]): IChartConfig {
+    const chartData: IChartConfig = {
+      data: { datasets: [],
+              labels: []
+            }
+      };
+    data.map((item: any) => {
+      chartData.data.labels.push(item.date);
+      fields.map((field, index) => {
+        if (!chartData.data.datasets[index]) {
+           chartData.data.datasets[index] = {data: [], label: field.label}; }
+        chartData.data.datasets[index].data.push(item[field.name]);
+      });
+    });
+    return chartData;
+  }
+
+  public dailyCasesData(data: any) {
+    const dailyData: any[] = [];
+
+    data.map((item: any, index: number) => {
+      let previous = 0;
+      index === 0 ? previous = index : previous = index - 1;
+      dailyData.push({
+        date: item.date,
+        deathsLast24h: item.deaths - data[previous].deaths,
+        casesLast24h: item.cases - data[previous].cases,
+        recoveredLast24: item.recovered - data[previous].recovered,
+        hospitalizedLast24h: item.hospitalized - data[previous].hospitalized
+      });
+    });
+    return dailyData;
   }
 }

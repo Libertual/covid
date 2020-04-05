@@ -31,6 +31,11 @@
     border: 2px solid $color-warn-dark-2;
   }
 
+  &--danger {
+    background-image: linear-gradient(to right bottom, $color-danger, $color-danger-dark-1);
+    border: 2px solid $color-danger-dark-2;
+  }
+
   &--success {
     background-image: linear-gradient(to right bottom, $color-success, $color-success-dark-1);
     border: 2px solid $color-success-dark-2;
@@ -48,6 +53,10 @@
 
     &--warn {
       color: $color-warn-light-1;
+    }
+
+    &--danger {
+      color: $color-danger-light-1;
     }
 
     &--success {
@@ -70,6 +79,10 @@
 
     &--warn {
       color: $color-warn-light-2;
+    }
+
+    &--danger {
+      color: $color-danger-light-2;
     }
   }
 }

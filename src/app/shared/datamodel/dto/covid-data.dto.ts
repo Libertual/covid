@@ -6,4 +6,5 @@ export interface CovidDataDTO {
   recovered: number;
   hospitalized: number;
   last24h: number;
+  deathsLast24h?: number;
 }

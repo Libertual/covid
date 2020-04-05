@@ -51,7 +51,4 @@ $covid-theme: mat-light-theme($covid-primary, $covid-accent, $covid-warn);
 @import "layout/grid";
 @import "layout/header";
 
-@import "../app/app.component";
-
-
 @import "pages/home";
