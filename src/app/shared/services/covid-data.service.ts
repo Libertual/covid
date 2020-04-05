@@ -57,8 +57,8 @@ export class CovidDataService {
       if (!chartData.data.datasets[1]) { chartData.data.datasets[1] = {data: [], label: 'Hospitalizados'}; }
       chartData.data.datasets[1].data.push(item.hospitalized);
 
-      if (!chartData.data.datasets[2]) { chartData.data.datasets[2] = {data: [], label: 'UCI'}; }
-      chartData.data.datasets[2].data.push(item.uci);
+      if (!chartData.data.datasets[2]) { chartData.data.datasets[2] = {data: [], label: 'Recuperados'}; }
+      chartData.data.datasets[2].data.push(item.recovered);
 
       if (!chartData.data.datasets[3]) { chartData.data.datasets[3] = {data: [], label: 'Fallecidos'}; }
       chartData.data.datasets[3].data.push(item.deaths);

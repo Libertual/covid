@@ -57,17 +57,17 @@ export class SummaryComponent implements OnInit {
   public dailyDeathMiniChart = new ChartConfig();
 
   constructor( private covidDataService: CovidDataService ) {
-    this.dailyCasesMiniChart.setColors(0, '#058082');
+    this.dailyCasesMiniChart.setColor(0, '#058082');
     this.dailyCasesMiniChart.setOptions(this.miniChartOptions);
-    this.deathRateMiniChart.setColors(0, '#e96f46');
+    this.deathRateMiniChart.setColor(0, '#e96f46');
     this.deathRateMiniChart.setOptions(this.miniChartOptions);
-    this.casesMiniChart.setColors(0, '#854f6a');
+    this.casesMiniChart.setColor(0, '#854f6a');
     this.casesMiniChart.setOptions(this.miniChartOptions);
-    this.recoveredMiniChart.setColors(0, '#91cb93');
+    this.recoveredMiniChart.setColor(0, '#91cb93');
     this.recoveredMiniChart.setOptions(this.miniChartOptions);
-    this.hospitalizedMiniChart.setColors(0, '#b898a8');
+    this.hospitalizedMiniChart.setColor(0, '#b898a8');
     this.hospitalizedMiniChart.setOptions(this.miniChartOptions);
-    this.dailyDeathMiniChart.setColors(0, '#cc7a7a');
+    this.dailyDeathMiniChart.setColor(0, '#cc7a7a');
     this.dailyDeathMiniChart.setOptions(this.miniChartOptions);
   }
 
