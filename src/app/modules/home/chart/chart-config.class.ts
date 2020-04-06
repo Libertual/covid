@@ -43,19 +43,19 @@ export class ChartConfig implements IChartConfig {
       };
     this.colors = [
         {
+          borderColor: '#703050',
+          backgroundColor: 'transparent'
+        },
+        {
           borderColor: '#777',
           backgroundColor: 'transparent'
         },
         {
-          borderColor: '#33b440',
+          borderColor: '#4CAF50',
           backgroundColor: 'transparent'
         },
         {
-          borderColor: '#005577',
-          backgroundColor: 'transparent'
-        },
-        {
-          borderColor: '#c24822',
+          borderColor: '#e55525',
           backgroundColor: 'transparent'
         },
         {
@@ -65,9 +65,13 @@ export class ChartConfig implements IChartConfig {
       ];
   }
 
-  public setColors?(index: number, borderColor?: string, backgroundColor?: string) {
+  public setColor?(index: number, borderColor?: string, backgroundColor?: string) {
     this.colors[index].borderColor = borderColor || this.colors[index].borderColor;
     this.colors[index].backgroundColor = backgroundColor || this.colors[index].backgroundColor;
+  }
+
+  public setColors?(colors: Color[]) {
+    this.colors = colors;
   }
 
   public setOptions?(options: ChartOptions) {

@@ -75,8 +75,39 @@ export class HomeComponent implements OnInit {
   public dailyCasesChart = new ChartConfig();
 
   constructor(private covidDataService: CovidDataService) {
+
     this.totalDataChart.setOptions(this.casesChartOptions);
     this.deathRateChart.setOptions(this.deadRateChartOptions);
+    const deathRateChartColors = [
+        {
+          borderColor: '#4CAF50',
+          backgroundColor: 'transparent'
+        },
+        {
+          borderColor: '#703050',
+          backgroundColor: 'transparent'
+        },
+        {
+          borderColor: '#777',
+          backgroundColor: 'transparent'
+        }
+      ];
+    this.deathRateChart.setColors(deathRateChartColors);
+    const dailyCasesChartColors = [
+        {
+          borderColor: '#cc0000',
+          backgroundColor: 'transparent'
+        },
+        {
+          borderColor: '#15fcff',
+          backgroundColor: 'transparent'
+        },
+        {
+          borderColor: '#777',
+          backgroundColor: 'transparent'
+        }
+      ];
+    this.dailyCasesChart.setColors(dailyCasesChartColors);
     this.dailyCasesChart.setOptions(this.dailyCasesChartOptions);
   }
 
