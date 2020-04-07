@@ -1,3 +1,9 @@
+#### 1.5.1 (2020-04-07)
+
+##### Other Changes
+
+*  new cases (2020-04-06) (0afd86d8)
+
 ## 1.5.0 (2020-04-06)
 
 ##### Build System / Dependencies
