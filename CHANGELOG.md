@@ -1,3 +1,19 @@
+### 1.6.0 (2020-04-09)
+
+##### Build System / Dependencies
+
+*  v1.6.0 (65464cce)
+*  v1.5.2 (1e16c0e3)
+
+##### New Features
+
+*  New footer. Description, contact and sources. (41242f52)
+
+##### Other Changes
+
+*  new cases 2020-04-08 (7cc15061)
+*  New cases 2020-04-07 (85e0a9cb)
+
 #### 1.5.2 (2020-04-08)
 
 ##### Other Changes
