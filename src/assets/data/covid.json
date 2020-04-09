@@ -470,12 +470,22 @@
   },
   {
     "date": "2020-04-07",
-    "hour": "20:00",
+    "hour": "21:00",
     "cases": 146690,
     "deaths": 14555,
     "recovered": 48021,
     "hospitalized": 63516,
     "uci": 6092,
     "last24h": 6180
+  },
+  {
+    "date": "2020-04-08",
+    "hour": "21:00",
+    "cases": 152446,
+    "deaths": 15238,
+    "recovered": 52165,
+    "hospitalized": 66579,
+    "uci": 6092,
+    "last24h": 5756
   }
 ]
