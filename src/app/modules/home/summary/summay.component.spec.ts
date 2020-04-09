@@ -12,6 +12,7 @@ describe('SummaryComponent', () => {
   let fixture: ComponentFixture<SummaryComponent>;
   let cDS: CovidDataService;
   const totalCovidData = new ReplaySubject<any>();
+  const dailyCovidData = new ReplaySubject<any>();
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
@@ -46,13 +47,36 @@ describe('SummaryComponent', () => {
         last24h: 7026
       }
     ];
+    const dailyData = [{
+        date: '2020-04-8',
+        deathsLast24h: 5,
+        casesLast24h: 6,
+        recoveredLast24h: 7,
+        hospitalizedLast24h: 8
+      },
+      {
+        date: '2020-04-8',
+        deathsLast24h: 5,
+        casesLast24h: 6,
+        recoveredLast24h: 7,
+        hospitalizedLast24h: 8
+      }
+    ];
+    dailyCovidData.next(dailyData);
     totalCovidData.next(data);
     component = fixture.componentInstance;
     spyOn(cDS, 'getTotalCovidData').and.callFake(() => totalCovidData);
+    spyOn(cDS, 'getDailyCovidData').and.callFake(() => dailyCovidData);
     fixture.detectChanges();
   });
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it(`data must be displayed correctly`, () => {
+    expect(component.totalCovidData.cases).toEqual(124736);
+    expect(component.totalCovidData.deathsLast24h).toEqual(809);
+    expect(component.casesLast24h).toEqual(6);
   });
 });
