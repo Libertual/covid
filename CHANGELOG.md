@@ -1,3 +1,18 @@
+### 1.7.0 (2020-04-10)
+
+##### Build System / Dependencies
+
+*  1.7.0 (af798c99)
+*  1.6.1 (e6b54294)
+
+##### New Features
+
+*  Active cases (f182fbfc)
+
+##### Tests
+
+*  Improved coverage and refactored services. (1409b785)
+
 #### 1.6.1 (2020-04-10)
 
 ##### Build System / Dependencies
