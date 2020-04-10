@@ -59,7 +59,7 @@ export class ChartConfig implements IChartConfig {
           backgroundColor: 'transparent'
         },
         {
-          borderColor: '#000000',
+          borderColor: '#058082',
           backgroundColor: 'transparent'
         }
       ];
