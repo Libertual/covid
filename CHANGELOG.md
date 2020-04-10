@@ -1,3 +1,9 @@
+#### 1.6.1 (2020-04-10)
+
+##### Build System / Dependencies
+
+*  1.6.1 (e6b54294)
+
 ### 1.6.0 (2020-04-09)
 
 ##### Build System / Dependencies
