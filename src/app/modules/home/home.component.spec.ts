@@ -35,8 +35,11 @@ describe('HomeComponent', () => {
         recovered: 30513,
         hospitalized: 56637,
         uci: 6092,
-        last24h: 7472
-      },
+        last24h: 7472,
+        deathsLast24h: 5,
+        casesLast24h: 6,
+        recoveredLast24h: 7,
+        hospitalizedLast24h: 8      },
       {
         date: '2020-04-03',
         hour: '20:00',
@@ -45,30 +48,16 @@ describe('HomeComponent', () => {
         recovered: 34219,
         hospitalized: 57612,
         uci: 6092,
-        last24h: 7026
+        last24h: 7026,
+        deathsLast24h: 50,
+        casesLast24h: 60,
+        recoveredLast24h: 70,
+        hospitalizedLast24h: 80
       }
     ];
-    const dailyData = [{
-        date: '2020-04-8',
-        deathsLast24h: 5,
-        casesLast24h: 6,
-        recoveredLast24h: 7,
-        hospitalizedLast24h: 8
-      },
-      {
-        date: '2020-04-8',
-        deathsLast24h: 5,
-        casesLast24h: 6,
-        recoveredLast24h: 7,
-        hospitalizedLast24h: 8
-      }
-    ];
-    dailyCovidData.next(dailyData);
     totalCovidData.next(data);
     component.totalDataChart.setColor(1);
 
-    spyOn(cDS, 'getTotalCovidData').and.callFake(() => totalCovidData);
-    spyOn(cDS, 'getDailyCovidData').and.callFake(() => dailyCovidData);
     spyOn(cDS, 'getCovidData').and.callFake(() => totalCovidData);
     fixture.detectChanges();
   });

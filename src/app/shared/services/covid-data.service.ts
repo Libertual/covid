@@ -11,8 +11,7 @@ import { ReplaySubject } from 'rxjs';
 })
 
 export class CovidDataService {
-  private totalCovidData = new ReplaySubject<CovidDataDTO>(null);
-  private covidDailyData = new ReplaySubject<any>(null);
+  private covidData = new ReplaySubject<CovidDataDTO[]>(null);
   private population = {
     spain: 47100396
   };
@@ -22,23 +21,31 @@ export class CovidDataService {
   private totalDataFile = 'covid.json';
 
   constructor(private http: HttpClient) {
-    this.getCovidData().subscribe(
-      (res: CovidDataDTO) => {
-        this.covidDailyData.next(this.dailyCasesData(res));
-        this.totalCovidData.next(res);
+    this.getCovidDataResponse().subscribe(
+      (res: CovidDataDTO[]) => {
+        this.covidData.next(this.calculateCovidData(res));
       }
     );
   }
 
-  public getTotalCovidData(): ReplaySubject<CovidDataDTO> {
-    return this.totalCovidData;
+  public getCovidData(): ReplaySubject<CovidDataDTO[]> {
+    return this.covidData;
   }
 
-  public getDailyCovidData(): ReplaySubject<any> {
-    return this.covidDailyData;
+  public calculateCovidData(data: CovidDataDTO[]): CovidDataDTO[] {
+    data.map((item: CovidDataDTO, index) => {
+      let before: number;
+      index === 0 ? before = 0 : before = index - 1;
+      item.deathsLast24h = data[index].deaths - data[before].deaths;
+      item.casesLast24h = data[index].cases - data[before].cases;
+      item.hospitalizedLast24h = data[index].hospitalized - data[before].hospitalized;
+      item.actives = item.cases - item.recovered - item.deaths;
+      return item;
+    });
+    return data;
   }
 
-  public getCovidData() {
+  public getCovidDataResponse() {
     return this.http.get(this.dataPath + this.totalDataFile, {responseType: 'json'});
   }
 
@@ -62,14 +69,15 @@ export class CovidDataService {
 
       if (!chartData.data.datasets[3]) { chartData.data.datasets[3] = {data: [], label: 'Fallecidos'}; }
       chartData.data.datasets[3].data.push(item.deaths);
+
+      if (!chartData.data.datasets[4]) { chartData.data.datasets[4] = {data: [], label: 'Activos'}; }
+      chartData.data.datasets[4].data.push(item.actives);
     });
     return chartData;
   }
 
-  public parseTotalDataFile(data: any) {
-    const totalData: CovidDataDTO = data[data.length - 1];
-    totalData.deathsLast24h = data[data.length - 1].deaths - data[data.length - 2].deaths;
-    return totalData;
+  public getLastDayData(data: any) {
+    return data[data.length - 1];
   }
 
   public parseDeathRateData(data: any): IChartConfig {
@@ -136,22 +144,5 @@ export class CovidDataService {
       });
     });
     return chartData;
-  }
-
-  public dailyCasesData(data: any) {
-    const dailyData: any[] = [];
-
-    data.map((item: any, index: number) => {
-      let previous = 0;
-      index === 0 ? previous = index : previous = index - 1;
-      dailyData.push({
-        date: item.date,
-        deathsLast24h: item.deaths - data[previous].deaths,
-        casesLast24h: item.cases - data[previous].cases,
-        recoveredLast24: item.recovered - data[previous].recovered,
-        hospitalizedLast24h: item.hospitalized - data[previous].hospitalized
-      });
-    });
-    return dailyData;
   }
 }

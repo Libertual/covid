@@ -12,14 +12,15 @@ import { ChartConfig } from '../chart/chart-config.class';
   templateUrl: './summary.component.html'
 })
 export class SummaryComponent implements OnInit {
-  public totalCovidData: CovidDataDTO = {} as any;
+  public lastDayData: CovidDataDTO = {} as any;
   public dailyCovidData: ICovidDailyData = {} as ICovidDailyData;
-  public deathsLast24h: number;
-  public casesLast24h: number;
 
   public miniChartOptions: ChartOptions = {
     responsive: true,
     showLines: true,
+    tooltips: {
+      enabled: false
+    },
     elements: {
       line: {
         borderWidth: 2
@@ -55,6 +56,7 @@ export class SummaryComponent implements OnInit {
   public recoveredMiniChart = new ChartConfig();
   public hospitalizedMiniChart = new ChartConfig();
   public dailyDeathMiniChart = new ChartConfig();
+  public activesMiniChart = new ChartConfig();
 
   constructor( private covidDataService: CovidDataService ) {
     this.dailyCasesMiniChart.setColor(0, '#058082');
@@ -69,28 +71,26 @@ export class SummaryComponent implements OnInit {
     this.hospitalizedMiniChart.setOptions(this.miniChartOptions);
     this.dailyDeathMiniChart.setColor(0, '#cc7a7a');
     this.dailyDeathMiniChart.setOptions(this.miniChartOptions);
+    this.activesMiniChart.setColor(0, '#058082');
+    this.activesMiniChart.setOptions(this.miniChartOptions);
   }
 
   public ngOnInit(): void {
-    this.covidDataService.getTotalCovidData().subscribe(
+    this.covidDataService.getCovidData().subscribe(
       (data) => {
-        this.totalCovidData = this.covidDataService.parseTotalDataFile(data);
+        this.lastDayData = this.covidDataService.getLastDayData(data);
         this.deathRateMiniChart = { ...this.deathRateMiniChart, ...this.covidDataService.parseCasesDataByField(data, 'deaths')};
         this.casesMiniChart = {...this.casesMiniChart, ...this.covidDataService.parseCasesDataByField(data, 'cases') };
         this.recoveredMiniChart = {...this.recoveredMiniChart, ...this.covidDataService.parseCasesDataByField(data, 'recovered') };
         this.hospitalizedMiniChart = {...this.hospitalizedMiniChart, ...this.covidDataService.parseCasesDataByField(data, 'hospitalized') };
-      }
-    );
-    this.covidDataService.getDailyCovidData().subscribe(
-      (data) => {
-        this.dailyCovidData = data;
-        this.casesLast24h = data[data.length - 1].casesLast24h;
-        this.deathsLast24h = data[data.length - 1].deathsLast24h;
         const cases = [{name: 'casesLast24h', label: 'Afectados 24h' }];
         this.dailyCasesMiniChart = {...this.dailyCasesMiniChart, ...this.covidDataService.dailyCasesChartDataByFields(data, cases) };
         const deaths = [{name: 'deathsLast24h', label: 'Fallecidos 24h' }];
         this.dailyDeathMiniChart = {...this.dailyDeathMiniChart, ...this.covidDataService.dailyCasesChartDataByFields(data, deaths) };
-      });
+        const actives = [{name: 'actives', label: 'Activos' }];
+        this.activesMiniChart = {...this.activesMiniChart, ...this.covidDataService.dailyCasesChartDataByFields(data, actives) };
 
+      }
+    );
   }
 }

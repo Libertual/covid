@@ -1,16 +1,12 @@
-import { inject, TestBed } from '@angular/core/testing';
+import { TestBed } from '@angular/core/testing';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
 
 import { CovidDataService } from './covid-data.service';
-
-import { ReplaySubject } from 'rxjs';
 
 describe('CovidDataService', () => {
   let service: CovidDataService;
   let httpMock: HttpTestingController;
   const apiURL = 'assets/data/covid.json';
-
-  const totalCovidData = new ReplaySubject<any>();
 
   const data = [{
       date: '2020-04-02',
@@ -52,18 +48,15 @@ describe('CovidDataService', () => {
       expect(res[0].cases).toBe(117710);
     });
 
-    service.getTotalCovidData().subscribe((res) => {
+    service.getCovidData().subscribe((res) => {
       expect(res[0].recovered).toBe(30513);
-    });
-
-    service.getDailyCovidData().subscribe((res) => {
       expect(res[1].casesLast24h).toBe(7026);
     });
 
     const req = httpMock.match(apiURL);
     expect(req[0].request.method).toBe('GET');
 
-    service.getTotalCovidData();
+    service.getCovidData();
     req.map((r) => {
         r.flush(data);
     });
