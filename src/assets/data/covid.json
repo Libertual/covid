@@ -487,5 +487,15 @@
     "hospitalized": 66579,
     "uci": 6092,
     "last24h": 5756
+  },
+  {
+    "date": "2020-04-09",
+    "hour": "21:00",
+    "cases": 157022,
+    "deaths": 15843,
+    "recovered": 55668,
+    "hospitalized": 67572,
+    "uci": 6092,
+    "last24h": 4576
   }
 ]
