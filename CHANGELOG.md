@@ -1,3 +1,9 @@
+#### 1.7.1 (2020-04-11)
+
+##### Build System / Dependencies
+
+*  1.7.1 (e61b5e51)
+
 ### 1.7.0 (2020-04-10)
 
 ##### Build System / Dependencies
