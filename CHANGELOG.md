@@ -1,3 +1,13 @@
+#### 1.7.2 (2020-04-12)
+
+##### Build System / Dependencies
+
+*  1.7.2 (fe247da1)
+
+##### Other Changes
+
+*  2020-04-11 (9b2c10d7)
+
 #### 1.7.1 (2020-04-11)
 
 ##### Build System / Dependencies
