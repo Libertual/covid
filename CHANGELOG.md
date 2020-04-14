@@ -1,3 +1,13 @@
+#### 1.7.4 (2020-04-14)
+
+##### Build System / Dependencies
+
+*  v1.7.4 (c67a6a2e)
+
+##### Other Changes
+
+*  New cases 2020-04-13 (5d29536b)
+
 #### 1.7.3 (2020-04-13)
 
 ##### Build System / Dependencies
