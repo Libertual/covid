@@ -1,3 +1,17 @@
+#### 1.7.5 (2020-04-15)
+
+##### Build System / Dependencies
+
+*  v1.7.5 (21c96560)
+
+##### Bug Fixes
+
+*  Social image (2cdea489)
+
+##### Other Changes
+
+*  New cases 2020-04-14 (994ab410)
+
 #### 1.7.4 (2020-04-14)
 
 ##### Build System / Dependencies
