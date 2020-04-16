@@ -1,3 +1,13 @@
+#### 1.7.6 (2020-04-16)
+
+##### Build System / Dependencies
+
+*  1.7.6 (c645432c)
+
+##### Other Changes
+
+*  New cases 2020-04-15 (d677edfa)
+
 #### 1.7.5 (2020-04-15)
 
 ##### Build System / Dependencies
