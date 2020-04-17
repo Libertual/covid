@@ -1,3 +1,17 @@
+#### 1.7.7 (2020-04-17)
+
+##### Build System / Dependencies
+
+*  1.7.7 (0058f881)
+
+##### Bug Fixes
+
+*  data file covid.json (2902af70)
+
+##### Other Changes
+
+*  New cases 2020-04-16 (63055788)
+
 #### 1.7.6 (2020-04-16)
 
 ##### Build System / Dependencies
