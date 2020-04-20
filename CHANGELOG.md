@@ -1,3 +1,13 @@
+#### 1.7.9 (2020-04-20)
+
+##### Build System / Dependencies
+
+*  1.7.9 (fb39d8ca)
+
+##### Other Changes
+
+*  New cases 2020-04-19 (78db1c22)
+
 #### 1.7.8 (2020-04-19)
 
 ##### Build System / Dependencies
