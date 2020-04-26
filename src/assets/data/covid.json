@@ -647,5 +647,15 @@
     "hospitalized": 78545,
     "uci": 6092,
     "last24h": 2944
+  },
+  {
+    "date": "2020-04-25",
+    "hour": "21:00",
+    "cases": 224437,
+    "deaths": 23190,
+    "recovered": 98732,
+    "hospitalized": 78545,
+    "uci": 6092,
+    "last24h": 1729
   }
 ]
