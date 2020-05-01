@@ -1,3 +1,13 @@
+#### 1.7.18 (2020-05-01)
+
+##### Build System / Dependencies
+
+*  1.7.18 (54df105d)
+
+##### Other Changes
+
+*  New cases 2020-04-28, 2020-04-29, 2020-04-30 (a861601c)
+
 #### 1.7.17 (2020-04-28)
 
 ##### Build System / Dependencies
