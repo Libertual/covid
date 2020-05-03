@@ -1,3 +1,13 @@
+#### 1.7.19 (2020-05-03)
+
+##### Build System / Dependencies
+
+*  1.7.19 (7c3b47e0)
+
+##### Other Changes
+
+*  2020-04-01, 2020-04-02 (01cfba8c)
+
 #### 1.7.18 (2020-05-01)
 
 ##### Build System / Dependencies
