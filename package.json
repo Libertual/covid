@@ -1,6 +1,6 @@
 {
   "name": "covid",
-  "version": "1.7.18",
+  "version": "1.7.19",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
