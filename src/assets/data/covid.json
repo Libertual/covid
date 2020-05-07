@@ -757,5 +757,15 @@
     "hospitalized": 120466,
     "uci": 6092,
     "last24h": 685
+  },
+  {
+    "date": "2020-05-06",
+    "hour": "21:00",
+    "cases": 237457,
+    "deaths": 26070,
+    "recovered": 128511,
+    "hospitalized": 121014,
+    "uci": 6092,
+    "last24h": 754
   }
 ]
