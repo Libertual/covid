@@ -757,5 +757,35 @@
     "hospitalized": 120466,
     "uci": 6092,
     "last24h": 685
+  },
+  {
+    "date": "2020-05-06",
+    "hour": "21:00",
+    "cases": 237457,
+    "deaths": 26070,
+    "recovered": 128511,
+    "hospitalized": 121014,
+    "uci": 6092,
+    "last24h": 754
+  },
+  {
+    "date": "2020-05-07",
+    "hour": "21:00",
+    "cases": 238584,
+    "deaths": 26299,
+    "recovered": 131148,
+    "hospitalized": 121776,
+    "uci": 11222,
+    "last24h": 1127
+  },
+  {
+    "date": "2020-05-08",
+    "hour": "21:00",
+    "cases": 239188,
+    "deaths": 26478,
+    "recovered": 133952,
+    "hospitalized": 122265,
+    "uci": 11292,
+    "last24h": 604
   }
 ]
