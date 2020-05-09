@@ -1,3 +1,14 @@
+#### 1.7.22 (2020-05-09)
+
+##### Build System / Dependencies
+
+*  1.7.22 (723ae0a1)
+
+##### Other Changes
+
+*  New cases 2020-05-06, 2020-05-07 (8f5b10a5)
+*  New cases 2020-05-06 (420c3ca7)
+
 #### 1.7.21 (2020-05-06)
 
 ##### Build System / Dependencies
